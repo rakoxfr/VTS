@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint version="4" type="Visual">
+    <Description/>
+    <Verification object=":contentGroupBox.titleEdit_QLineEdit">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QLineEdit" id="00001610">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAABH4AAAAUCAIAAAB0921hAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADAklEQVR4nO3dQWtTWRiH8f977r29tkjbqQrSdqhfYHZKHFtwObsyQSyh+A0EJVKK30AIhVJn/AalhIJUKrgXWrTMbF1PJJMuBGNTQadN7jkuaqHjdDF0ZG4Tn98quWfzbF/uyRt7VW9KMlMsn5h3CiYAAAAAwMkFKZO1g9sPTpJJsaRY/ox5U8g7DwAAAAB6gUmxQmxZav6jdx25WNIZl5lkppHhoTRNIufy7gQAAACALpZ5v7fXbu60XAgDLtv1ziXmJZnZxQvnB/pT5i4AQG8ozszmnQAA+HZFzg30pxcvnDczSX0WXGLepJHhwThm6AIAAACAryaO3cjwoEmJZc4pSErTJO8qAAAAAOg1aV8iKVKID/YZcs8QAJC/xnq5XK19+XTy/uL31SXNVS6/nP9Fdx/cGMshDQCAk4miIxsOAQA4FcamF1enpYMZrF5avV04PClUJG3nFgYAwH/G6AUAOPUa6+Wl3R/07GlNKs8uS7pU+vWuFpY0NV5d3pi8v3q7oO3H83PLNUkTtxZ5MwYAOHUYvQAAXWHwp8rC0NELh4111ar1mytrdyRp6+HcxrWFtcqofntUXFq/WpnOtRYAgC/xEy8AQNe6VLp55eDT7y82Jks/j0rSlcL12ouXjTy7AAD4J956AQC6X2P7tTafz2wefp+4lWcNAADHYPQCAHS/sdEJTR5dyyFpObcaAACOwYVDAEC3GB0ff10/fs3h5R+nNqtPPp9tPXy09T9mAQDwb8RBMinznr/2AgCccoUbpWp5tqjPGw7/dnRn4c/5ueKKJGnq3loOdQAAHCPLvKQg2R+NN5HCue+GBvrTvKsAAPhqijOza6sreVcAAL51Hz7uvX3X6shcOzhJzZ1Wp+PzrgIAAACA3tHp+OZOS1I7RPaq3jzrOqZgZiPDg2lfEkXcPAQAAACAk8syv7ffbrZ2gw9BtuvjWNJf3vW7zIfw9l0r70IAAAAA6BFBkvTBOx0sl+/IvfcuMZ+YdwqWaxwAAAAAdLsgZbJ2iPYPB6xP7Knbc3fdOk8AAAAASUVORK5CYII=</image>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>145</x>
+                                    <y>449</y>
+                                    <height>20</height>
+                                    <width>1150</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="maxLength">
+                                    <string>32767</string>
+                                </property>
+                                <property name="minimized">
+                                    <string>false</string>
+                                </property>
+                                <property name="windowOpacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="cursorMoveStyle">
+                                    <string>0</string>
+                                </property>
+                                <property name="undoAvailable">
+                                    <string>true</string>
+                                </property>
+                                <property name="windowIconText"/>
+                                <property name="selectedText"/>
+                                <property name="echoMode">
+                                    <string>0</string>
+                                </property>
+                                <property name="accessibleDescription"/>
+                                <property name="windowModality">
+                                    <string>0</string>
+                                </property>
+                                <property name="readOnly">
+                                    <string>false</string>
+                                </property>
+                                <property name="text">
+                                    <string>Titre</string>
+                                </property>
+                                <property name="acceptableInput">
+                                    <string>true</string>
+                                </property>
+                                <property name="placeholderText">
+                                    <string>Page title</string>
+                                </property>
+                                <property name="autoFillBackground">
+                                    <string>false</string>
+                                </property>
+                                <property name="cursorPosition">
+                                    <string>5</string>
+                                </property>
+                                <property name="whatsThis"/>
+                                <property name="statusTip"/>
+                                <property name="layoutDirection">
+                                    <string>0</string>
+                                </property>
+                                <property name="windowFilePath"/>
+                                <property name="toolTipDuration">
+                                    <string>-1</string>
+                                </property>
+                                <property name="focus">
+                                    <string>true</string>
+                                </property>
+                                <property name="redoAvailable">
+                                    <string>false</string>
+                                </property>
+                                <property name="displayText">
+                                    <string>Titre</string>
+                                </property>
+                                <property name="focusPolicy">
+                                    <string>11</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="modified">
+                                    <string>true</string>
+                                </property>
+                                <property name="styleSheet"/>
+                                <property name="windowTitle"/>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="hasSelectedText">
+                                    <string>false</string>
+                                </property>
+                                <property name="inputMask"/>
+                                <property name="maximized">
+                                    <string>false</string>
+                                </property>
+                                <property name="clearButtonEnabled">
+                                    <string>false</string>
+                                </property>
+                                <property name="fullScreen">
+                                    <string>false</string>
+                                </property>
+                                <property name="isActiveWindow">
+                                    <string>true</string>
+                                </property>
+                                <property name="frame">
+                                    <string>true</string>
+                                </property>
+                            </properties>
+                            <identifyingProperties>
+                                <property name="objectName">
+                                    <string>titleEdit</string>
+                                </property>
+                                <property name="accessibleName"/>
+                            </identifyingProperties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying">
+                <PropertyVerification element-id="00001610">
+                    <VerifyProperty type="equal" name="objectName"/>
+                </PropertyVerification>
+            </check>
+            <check type="content">
+                <PropertyVerification element-id="00001610">
+                    <VerifyProperty type="equal" name="text"/>
+                    <VerifyProperty type="equal" name="whatsThis"/>
+                    <VerifyProperty type="equal" name="statusTip"/>
+                    <VerifyProperty type="equal" name="toolTip"/>
+                    <VerifyProperty type="equal" name="enabled"/>
+                </PropertyVerification>
+            </check>
+            <check type="geometry">
+                <PropertyVerification element-id="00001610">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

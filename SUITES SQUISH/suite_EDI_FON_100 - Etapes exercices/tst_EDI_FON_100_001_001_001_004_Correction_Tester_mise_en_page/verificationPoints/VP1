@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint version="4" type="Visual">
+    <Description/>
+    <Verification object=":contentGroupBox.textEdit_QTextEdit">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QTextEdit" id="000045f8">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAAAigAAAGUCAIAAACQj05BAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA7EAAAOxAGVKw4bAAALQ0lEQVR4nO3dPW9b1wHH4XOLjPkQHaigUD1lCi4NdCa1eNIaoAXIKRCHBLADLQWMeDACUEgWcfOqLlokfgISQWfFDkwO/SbswBeRerOR2H8z0vMMhkReXlPTD+fw8JyqPH1TACDls1LK7MXfPvXbAOBBqJ799pdP/R4AeFiEB4Ao4QEgSngAiBIeAKKEB4Ao4QEg6rbwDLvVhu4w+rYAuK9uCs+wW1XtQSmd89ncpF8P2s2jafzdAXDvXAvP9KjZHpRS6v7kuLV4rHEwmvQfLZ5dDoCmR82q6g6vjo3W+rT5jHABUK6HZ3p2Mi6llHp/r7H+eOPg+GDtgYvnzZ3eePFL3Z8sB0aljHs73WEpZdjdGDWddz7iHwHAn8dnV36fvJ7n5NEXjesXr9l/NRstrmiNFiOjxt5+3RuPy8XbaSmng1JKqXd3FhcdL68C4EG7e1Xb+mTZxlTZRpeW82/V5SCo7OzWpZQy7u1YnADAmqvhWQRjPmopreN3zZJNj5rVTm88n26b9Ovl442D0dpvpQza2gNAuR6ext7+fKhycvZeawEWU3Odw4NrU3ONg9HG5zvzlgHwsF2bamscvOrX5XKRwPuZR2X5AVEpZdhdjXCmby9Kub5cAYAH6YbPeBoHo/koZdCuqmr+lZ6bxzSllNbxci1bVVXPL9Ym15YvX87EjW58PQAPTFWevnECKQAZTiAFIE14AIgSHgCihAeAKOEBIOoDhmd61LQFNQDvcGt41rdpWxx+cPcXSqdnJ+N6//OXNmYD4A63hqd1PDvvLI41OG4NTwel8+Su/aXn3dn71/FsNju2ETUAt7hjqm0Zm+lRs2oPljsRNI+mGwe8LSbX5t35+9lqtu3yomazuRgEXZmMWx9FrXa4Nl4CuN9uD89qkNM4OOxcnug2OpiUJ7PLM7HHvZfDVXd+PRnX+3uNYbeqnu9OFhcdPhrPbzQ9Oxmv7bwzPB3U/e9apZRht9p5fbg6Zfu5D4oA7q/bP+O5nFy7Ms/Wam3MpNW7Oxvd+ftZs32xtjXb6tXTs5Px2m2Gp4N6f69RpkfNdjk3PQfwQFw9gXRpeDoonfPWlR8Xz3UXG4eWUkrdf9WYd+ffv56M6/1//qc37pyPGtduNB/vbHZn0ijDbm9cSrta3bDU/Ve2EwW4t24Z8dw23pkeNS9n0Sb9utT7e4318c7n/13On1250fBl76bxzrxLs3W2sQa4z24Ozy3dmR593SurWbTFOrar3dk4Fvtynu3tRal3d9Yen8+zbT4MwL13Y3jWYrNRhsnr8TIr06PmTm/Vnc7h3q8n487hwT9268uTRudTcvMbrb102K2q9uDyXLi1w06HXUvaAO69p2/W57kWx1SXUhYL2VYP1P3J2rN1p1OXuj+ZTfp16ZzP/71yg05nbTXc5eOdfn/+0tV83eb/CMC9VZ6++ZgHwQ27lfVqAKypnv1226q2D+DaajgAuHU59R83PB3U/YnuALDh44WndTzboupUVTWbzT71uwDAeTwAZAkPAFF/2vAMu4uNsp09B/Cnsj3h2Ths4fK8hd/PiagA2ygdntFo9OOPP45GoxufvfwC6Xln3PtaNQDun2h4fvrpp8ePH3/77bePHz/++eef77p0Z7cu49eTOw+P27B28NzRdLmlTxn3duaHy33wvwWA3ycanhcvXqx+/uGHH+64cnp2Mt7Y5fpuiz0S5mOlR72d7rBxMJqs7cxz/IfeNwAfzkfcueB3GKydy7N+qM87bHxXtfWkU9qnw+OWPa8BtlF0xPPs2bPVz99///31Cy4/45n0L9o3z6ld97+3F6s5tapaO6QOgO0THfF88803X3755S+//PLVV181m827Lm0cHHZ67dPh8Xfvd+t67bDtBSsTALZReqqt2Wy+IzkL07cXpTx6r3v+9YtH84UITi4F2H7b8z2eTcOXvXHpPGmVxt5+vToqbti9cR6t9aRTBu3VxNz0qLtcBjd+PYm8XQDe13aFZ9BefVBz0Z/MT/JpHLzql8UnOKdP1g+qu9Q6np13Vi/eOdnda8xfWC8etJwaYFt8zIPgtondqQG2QfXst+0a8QBw7wkPAFEPJTzm2QC2xEMJDwBbQngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiBIeAKKEB4Ao4QEgSngAiKrK0zef+j0A8ID8H31v3ihX+1XLAAAAAElFTkSuQmCC</image>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>743</x>
+                                    <y>258</y>
+                                    <height>404</height>
+                                    <width>552</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="whatsThis"/>
+                                <property name="toolTip"/>
+                                <property name="styleSheet"/>
+                                <property name="focus">
+                                    <string>true</string>
+                                </property>
+                                <property name="statusTip"/>
+                                <property name="windowTitle"/>
+                                <property name="overwriteMode">
+                                    <string>false</string>
+                                </property>
+                                <property name="windowModality">
+                                    <string>0</string>
+                                </property>
+                                <property name="cursorWidth">
+                                    <string>1</string>
+                                </property>
+                                <property name="maximized">
+                                    <string>false</string>
+                                </property>
+                                <property name="verticalScrollBarPolicy">
+                                    <string>0</string>
+                                </property>
+                                <property name="tabStopWidth">
+                                    <string>80</string>
+                                </property>
+                                <property name="readOnly">
+                                    <string>false</string>
+                                </property>
+                                <property name="placeholderText">
+                                    <string>Comments</string>
+                                </property>
+                                <property name="autoFillBackground">
+                                    <string>false</string>
+                                </property>
+                                <property name="frameShadow">
+                                    <string>48</string>
+                                </property>
+                                <property name="isActiveWindow">
+                                    <string>true</string>
+                                </property>
+                                <property name="midLineWidth">
+                                    <string>0</string>
+                                </property>
+                                <property name="windowFilePath"/>
+                                <property name="documentTitle"/>
+                                <property name="accessibleDescription"/>
+                                <property name="frameShape">
+                                    <string>6</string>
+                                </property>
+                                <property name="lineWrapMode">
+                                    <string>1</string>
+                                </property>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="sizeAdjustPolicy">
+                                    <string>0</string>
+                                </property>
+                                <property name="toolTipDuration">
+                                    <string>-1</string>
+                                </property>
+                                <property name="horizontalScrollBarPolicy">
+                                    <string>0</string>
+                                </property>
+                                <property name="frameWidth">
+                                    <string>1</string>
+                                </property>
+                                <property name="tabChangesFocus">
+                                    <string>false</string>
+                                </property>
+                                <property name="windowOpacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="html">
+                                    <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:14px; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Gras&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-style:italic;">Italique&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Bullet&lt;/li>&lt;/ul>&lt;/body>&lt;/html></string>
+                                </property>
+                                <property name="acceptRichText">
+                                    <string>true</string>
+                                </property>
+                                <property name="undoRedoEnabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="minimized">
+                                    <string>false</string>
+                                </property>
+                                <property name="fullScreen">
+                                    <string>false</string>
+                                </property>
+                                <property name="windowIconText"/>
+                                <property name="lineWidth">
+                                    <string>1</string>
+                                </property>
+                                <property name="layoutDirection">
+                                    <string>0</string>
+                                </property>
+                                <property name="focusPolicy">
+                                    <string>11</string>
+                                </property>
+                                <property name="lineWrapColumnOrWidth">
+                                    <string>0</string>
+                                </property>
+                                <property name="plainText">
+                                    <string>Gras
+Italique
+Bullet</string>
+                                </property>
+                            </properties>
+                            <identifyingProperties>
+                                <property name="objectName">
+                                    <string>textEdit</string>
+                                </property>
+                                <property name="accessibleName"/>
+                            </identifyingProperties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying">
+                <PropertyVerification element-id="000045f8">
+                    <VerifyProperty type="equal" name="objectName"/>
+                </PropertyVerification>
+            </check>
+            <check type="content">
+                <PropertyVerification element-id="000045f8">
+                    <VerifyProperty type="equal" name="whatsThis"/>
+                    <VerifyProperty type="equal" name="toolTip"/>
+                    <VerifyProperty type="equal" name="statusTip"/>
+                    <VerifyProperty type="equal" name="enabled"/>
+                    <VerifyProperty type="equal" name="plainText"/>
+                </PropertyVerification>
+            </check>
+            <check type="geometry">
+                <PropertyVerification element-id="000045f8">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

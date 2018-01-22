@@ -1,0 +1,32 @@
+function main() {
+    activateItem(waitForObjectItem(":MainWindow_QMenuBar", "File"));
+    activateItem(waitForObjectItem(":MainWindow.File_QMenu", "New"));
+    activateItem(waitForObjectItem(":File.New_QMenu", "Implantology exercise"));
+    sendEvent("QMouseEvent", waitForObject(":imgLabel_QLabel"), QEvent.MouseButtonPress, 34, 8, Qt.LeftButton, 1, 0);
+    sendEvent("QMouseEvent", waitForObject(":imgLabel_QLabel_2"), QEvent.MouseButtonRelease, 34, 8, Qt.LeftButton, 0, 0);
+    doubleClick(waitForObject(":assessmentScrollArea.qt_spinbox_lineedit_QLineEdit"), 59, 15, 0, Qt.LeftButton);
+    mouseClick(waitForObject(":assessmentScrollArea.qt_spinbox_lineedit_QLineEdit"), 59, 15, 0, Qt.LeftButton);
+    type(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), "<Keypad_0>");
+    mouseClick(waitForObject(":assessmentScrollArea.qt_spinbox_lineedit_QLineEdit"), 92, 17, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), 145, 12, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), 145, 12, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), 145, 12, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), 145, 12, 0, Qt.LeftButton);
+    doubleClick(waitForObject(":assessmentScrollArea.qt_spinbox_lineedit_QLineEdit"), 60, 15, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), 150, 12, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"), 150, 12, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit"));
+    mouseClick(waitForObject(":assessmentScrollArea_QWidget_3"), 543, 35, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit_2"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit_2"), 148, 12, 0, Qt.LeftButton);
+    spinUp(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit_2"));
+    doubleClick(waitForObject(":assessmentScrollArea.assessmentTimeEdit_QTimeEdit_2"), 148, 12, 0, Qt.LeftButton);
+    mouseClick(waitForObject(":assessmentScrollArea_QWidget"), 550, 103, 0, Qt.LeftButton);
+    test.vp("VP1");
+}

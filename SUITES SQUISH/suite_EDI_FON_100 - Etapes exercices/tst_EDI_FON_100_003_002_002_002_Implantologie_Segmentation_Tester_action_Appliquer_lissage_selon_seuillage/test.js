@@ -1,0 +1,30 @@
+function main() {
+    activateItem(waitForObjectItem(":MainWindow_QMenuBar", "File"));
+    activateItem(waitForObjectItem(":MainWindow.File_QMenu", "New"));
+    activateItem(waitForObjectItem(":File.New_QMenu", "Implantology exercise"));
+    sendEvent("QMouseEvent", waitForObject(":imgLabel_QLabel_6"), QEvent.MouseButtonPress, 61, 0, Qt.LeftButton, 1, 0);
+    sendEvent("QMouseEvent", waitForObject(":imgLabel_QLabel_8"), QEvent.MouseButtonRelease, 61, 0, Qt.LeftButton, 0, 0);
+    clickButton(waitForObject(":Import DICOM series_QPushButton"));
+    type(waitForObject(":fileNameEdit_QLineEdit"), testData.field(testData.dataset("data_1.tsv")[0], "Fichiers"));
+    sendEvent("QMouseEvent", waitForObject(":_QListView"), QEvent.MouseButtonPress, 522, -4, Qt.LeftButton, 1, 0);
+    clickButton(waitForObject(":QFileDialog.Open_QPushButton"));
+    clickTab(waitForObject(":Import DICOM series_QTabWidget"), "3D TOOLS");
+    clickButton(waitForObject(":3D TOOLS_QToolButton"));
+    doubleClick(waitForObject(":_thresholdingGroup.qt_spinbox_lineedit_QLineEdit"), 17, 10, 0, Qt.LeftButton);
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_3>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_0>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_0>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_0>");
+    mouseClick(waitForObject(":_thresholdingGroup.qt_spinbox_lineedit_QLineEdit_2"), 23, 12, 0, Qt.LeftButton);
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox_2"), "<Backspace>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox_2"), "<Keypad_0>");
+    mouseDrag(waitForObject(":_thresholdingGroup.qt_spinbox_lineedit_QLineEdit"), 25, 9, -30, 0, 1, Qt.LeftButton);
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_3>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_0>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_0>");
+    type(waitForObject(":_thresholdingGroup_ctkQDoubleSpinBox"), "<Keypad_0>");
+    clickButton(waitForObject(":_thresholdGroupBox._okButton_QPushButton"));
+    clickButton(waitForObject(":3D TOOLS.Yes_QPushButton"));
+    snooze(5);
+    test.vp("VP1");
+}

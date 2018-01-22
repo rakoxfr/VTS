@@ -1,0 +1,37 @@
+function main() {
+    activateItem(waitForObjectItem(":MainWindow_QMenuBar", "File"));
+    activateItem(waitForObjectItem(":MainWindow.File_QMenu", "New"));
+    activateItem(waitForObjectItem(":File.New_QMenu", "Implantology exercise"));
+    sendEvent("QMouseEvent", waitForObject(":titleLabel_QLabel_4"), QEvent.MouseButtonPress, 5, 4, Qt.LeftButton, 1, 0);
+    sendEvent("QMouseEvent", waitForObject(":titleLabel_QLabel_5"), QEvent.MouseButtonRelease, 5, 2, Qt.LeftButton, 0, 0);
+    sendEvent("QMouseEvent", waitForObject(":titleLabel_QLabel_5"), QEvent.MouseButtonPress, 105, 2, Qt.LeftButton, 1, 0);
+    sendEvent("QMouseEvent", waitForObject(":titleLabel_QLabel_3"), QEvent.MouseButtonRelease, 105, 2, Qt.LeftButton, 0, 0);
+    clickButton(waitForObject(":Import DICOM series_QPushButton"));
+    type(waitForObject(":fileNameEdit_QLineEdit"), testData.field(testData.dataset("data_1.tsv")[0], "Fichiers"));
+    sendEvent("QMouseEvent", waitForObject(":_QListView"), QEvent.MouseButtonPress, 523, -10, Qt.LeftButton, 1, 0);
+    clickButton(waitForObject(":QFileDialog.Open_QPushButton"));
+    clickTab(waitForObject(":Import DICOM series_QTabWidget"), "3D TOOLS");
+    clickButton(waitForObject(":3D TOOLS_QToolButton_2"));
+    mouseDrag(waitForObject(":_cropParamsBox.qt_spinbox_lineedit_QLineEdit"), 48, 12, -59, 0, 1, Qt.LeftButton);
+    type(waitForObject(":_cropParamsBox._xMinSpinner_QSpinBox"), "<Keypad_1>");
+    type(waitForObject(":_cropParamsBox._xMinSpinner_QSpinBox"), "<Keypad_0>");
+    mouseDrag(waitForObject(":_cropParamsBox.qt_spinbox_lineedit_QLineEdit_2"), 53, 12, -61, -1, 1, Qt.LeftButton);
+    type(waitForObject(":_cropParamsBox._yMinSpinner_QSpinBox"), "<Keypad_1>");
+    type(waitForObject(":_cropParamsBox._yMinSpinner_QSpinBox"), "<Keypad_0>");
+    mouseDrag(waitForObject(":_cropParamsBox.qt_spinbox_lineedit_QLineEdit_3"), 46, 6, -62, 0, 1, Qt.LeftButton);
+    type(waitForObject(":_cropParamsBox._zMinSpinner_QSpinBox"), "<Keypad_1>");
+    type(waitForObject(":_cropParamsBox._zMinSpinner_QSpinBox"), "<Keypad_0>");
+    mouseDrag(waitForObject(":_cropParamsBox.qt_spinbox_lineedit_QLineEdit_4"), 57, 14, -88, -12, 1, Qt.LeftButton);
+    type(waitForObject(":_cropParamsBox._zMaxSpinner_QSpinBox"), "<Keypad_5>");
+    type(waitForObject(":_cropParamsBox._zMaxSpinner_QSpinBox"), "<Keypad_0>");
+    type(waitForObject(":_cropParamsBox._zMaxSpinner_QSpinBox"), "<Keypad_0>");
+    clickButton(waitForObject(":_mainCropBox._cropButton_QPushButton"));
+    clickButton(waitForObject(":3D TOOLS.Yes_QPushButton"));
+    sendEvent("QWheelEvent", waitForObject(":_mainCropBox._cropButton_QPushButton"), 177, 12, -120, 0, 2);
+    sendEvent("QWheelEvent", waitForObject(":qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox"), 215, 474, -120, 0, 2);
+    sendEvent("QWheelEvent", waitForObject(":HAPTIC SOLID.Crop haptic solid_QToolButton"), 205, 18, -120, 0, 2);
+    sendEvent("QWheelEvent", waitForObject(":HAPTIC SOLID.Generate non-haptic surface_QCheckBox"), 206, 4, 240, 0, 2);
+    sendEvent("QWheelEvent", waitForObject(":3D TOOLS_QmitkToolGUIArea"), 206, 189, 240, 0, 2);
+    clickTab(waitForObject(":Import DICOM series_QTabWidget"), "2D TOOLS");
+    test.vp("VP1");
+}

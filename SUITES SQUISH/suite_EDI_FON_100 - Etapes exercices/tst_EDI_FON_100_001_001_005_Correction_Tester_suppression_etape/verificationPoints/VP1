@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint version="4" type="Visual">
+    <Description/>
+    <Verification object=":ContentTabView.contentGroupBox_QGroupBox">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QGroupBox" id="00002ba5">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAABGoAAABUCAIAAABV6kafAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAgAElEQVR4nO19a8wmSXXeOdXdM7vr27K+xALEzI4drCg/nB8ggllMiDeO8iMWCBkhZBShOMpKQY43IbBEibSyLXEJMtjYyiQS4cdihB1hELYiGS1ZG5YQBFEU+5cTPDuDWaLIAnZZYHfm7a6TH9VdfarOqerqft/vm+9Sj9fD+3XX5XRdz1On6hR++9lbAABAMKG39PXndgBAREiAZBsgYwARESoqKioqKioqKioqKs4OCAABEbExpmkaY0wmcDtF8cDWhR+GBggBbg707ADWgiULCO1mDoVTPjwBCp/T/JYIZFY7y0WFzvjQYbITeksUPpmjFGBnCVnplMRVxQ5DAEAg7WCpQQQMpPX5dojRp+0GgukZMal6S6CVpQ/j01drAAHa9Ae6kvevMyEXEVUKT6g1mKziBAZLlqeAOBDxZuVzWfzGDNZKtQq8UqKMNudIBD2RAWimiLcGyrTMBrEwBwLoLUUtarOcC3kRACx1qIoCyI6vBoAwmN4WC/PD5LCczFLGooQ0cgiLko3yVVPOABMBUs8rKioqKtYjP0scc9YGEdEiQNvgxbY3iG3bdm2rRm/FbEA3d0Nnh52lZ25aG77rDqLIZGY79hxBmQg7g05ji/VgTS5VE91Nml8JXHZQrHYTQW9HbkMpVZI9swQDEQBYIqD56yCt67v03WsXcrDUiGC8jHGSTeVOwFSL5Q8UKWxAKqNtaolrol77ymCD2K4JRfUo03G1VshAfKXPKS9SboDekmsMvlVHUkU0UgbozEgsJVpmWXa8CwBaEwvlJecsmveyg1KnEZU7HQqyIBND7zx6bCcLPNHU9Cgf8lylWHIBTh2PIqELeWEmFo9buVNFRUXF4bC4znZEUMdyOynKvaXndmQA7rxAF7r+Qtc1pomit5HgzzzX3+xvPXeLnuvjxJs9vm/nZCIAp9WVKezklCemz8F+do8x2QJt1WNVdjsbLvAvNQpLFBXDYnYGYJjSdvCab4PYT+ox11uMfxQWeEq63lIjdmoeYEE6RKrPcPNReTqsNKAB7EkxcCUJ7VL6wHh7xJEs0TDlNBANVGAuY6I5LuyLerCUKl/y5HzCbqDWYE/k2JckRi4ATOm7ksHQyMnNUxCuOPSCOnrJCcDSSJYOa27i0KlexUqkljy4mZoDExsFtiOfitrV1SgqvZFWJmCDS8raLrNbbGw8xxPYMk+mVBUVFRUFuC0MajFHC/CdW/bZHXzvHXRH17XMDIUAZkoAAeBbz94a7O65WzRY6Ax6voQInUGxGF0kgiUKrEA4qWhirB8s7SwNPjCOBqgdkdOPU/uaVPTpwEOBXiY2JS2Ds7KxKRQ0hyib3lJGcgAwBnFilS55w6qpCevIaULGzLKoWpTLzzNroy35e15n9mawchk34j+twQaxNViSEQ/jd5ZKnWqbatExGVqDnYntS4NIN9VK3XMbvo2aYrKLAbi9ndEzR+dU7uQw7ucM37oPcf+luJN8GL30kg+8zwLsLLn/DkJ+zrLp6ciUXZUOpQJQGED+yCe1Whr5sDxFaXTKGLVS4x2CQr1UW1NKsJPJUk6mVBUVFRVLOCGmpxQswbeetTd3u1u3dvz5fC7q2VuDpeGZ79ph2gNkcNSxFs47EcC0h0oi1i8JgCtqOK92uhTsFMZN7JHKmKcWHHJDhy6epZ2lPtT5ektSLS5Bl1DfU2iZjcfVRAlnGHdVIaBY+zcIrr4QwDEQrh973qLSCeMJUkKAkWXlxSNw5RnV1G4qZ4CY43lw86YJq55Hl/BkwDUkRyMjRVCW1f5YQ+cBAIjism3CXXMZpPogpsvTw5ebI1qkmbgy3+IEiwrPybOzZAHs1KN5BfX78adVJuJTibKv21aIxH6o1CAKHIVPLTcozzfIpy4z5jP24L1ahvQTR0lSsBSgEpKKioqKY8Gxm89prX7x9LM02ECvaf/fd28BgCXqaHjuVnx8ohBub55Uu4OswrIZ59CMxW7accQ3cpUrwI1BOx1bimrFaX7ujIffqeL+7aczSGqaO0ttwv+g1/Y6xIHIgB4sPkuz1RVHY7BJK9zSDOXQTke5psznHxFncwdpMNTvzSJ3ci0BACZrYVSSBBO9ARgoqHkz2V5cSXLlx8u82LvG/WaIcIhNnotYlUHHrFieRs7L3zQ2wsbgIKkMBhE3CODSH01GrEP59pwxt/ZErki76aSTaxWR6WyVcbhChRwONzTixXmIW19UckUipJckDs8NOCWyLg34uWCR1SifnRdXNb3Jt9Hv2pYrKioqziIIYNPUSt96jqx99q477nDbkMadfBfBPv2cNVtSBNC8w425pSchS6O7uRGTSt2ESTUG7UB+bsvtbppThoGoM26DW7AH3uflz8cDW7L0SLmXSHGnCBlrQLO383fuPc/V16oUW4NuPyR4a1J4mMe773PPHJ90xGmROym7y6QNYapHg0AElggnAWbnfjRuMHMxDGLJfktgFAVx9E/I8jw8ocJNCybeDhYVzmDJ0emIJjWs0fNXRZ/DeZc3c7GRoydCGu2ZqU/hnjt5vzCAlkVywbatv0Q4+6anBA770ZwF8ZSj3xGbIvFcJqikK1mKSnJQozRSDpXzSBBLkPMinmwKJH77FI59IbSioqLinCM1ORxRXhswWHjmJhlz88477gBHnwzZXU+DBTSk0iC/br3WVGJQ2xSEADQRocCypDsu6xpcpU5xXXOwROG87JTOiDtJeEdnQcpChsGSo1R58TznSfFMGd7LxhVWv8Dv2tkABBa6BmHysd5Onty8FUhalgATHhQJdjQbNCOlSi2QFKI+QASdUSqRW8m4ChRlZxAMrmgDMzemcYujSzZjPMxgrjuDIJw9tMxdB7BgXBKlCkKG4BIIDnGli1p9pXe0qcP2odHJWXT5OT2i2VorgYjqgkJEuRy7xsk73+atktVjhINKB0piYcgmiD2P0oz7aYE8pVDl9sKpSeP0O/pTppZiPiA+Sc1IJova24qKioqKswUCneYURAQAsES3Bur6vnV+JAzRMzeTq8Z8T86uUDGaJuoG0XrVjUvhxOfmoaX0XDCvxmWUaWT0QDWYlOhny0E8RXEbxqaDO7y45G1Lu2kfVC7h8GiK90uun/zBkWn4Y1TRVTwUMSsBX6Q75gYQNR1mkcC0oeN1cFagaUPdIm8h8W/woSL6jm3OnL1se+6EQEQIyJPqC8pfZuF/t2a0g82H3BA6REtARCb8Ru9JnFa6y49giSzF+zwHIn8nUoPoso52/c01vtSaXbFE1iQHgyN9VSPKj8oELsf5ND1F2GACWbV0l+pokH0eYFU1ZYTD8DeJjy/8sDxxwjB9/grSf1ZUVFRUHAuOxfC/Ub3w0b57y3ZN37atuyOXpstz4nS3XJ0UFkAXXYSKAN4IUzZBuuizlwXPW6jUmBOhcCdYHv1kqLFAiKMr9kh/dc6d48y0Lw2tARQF9+CqBYYK0GjMoyAYsJAZ8iPLQ3InABiIFs2P/CIg10gKaQOGDWcxVtQye0YC5zSnevFZ7Mlk+kRcww1SE9QFCaKR+SDOZ/AyGLkTjLTQMSJisfzJwBRDjhuTZoByaAw0gJL/5+GP8/FzfdsMfVBNTyG4mSh6sjmpY5mfshKUhIwGoHIbWQTOmqIn/E9evrUFVlRUVNw+HOny6Z4DvNO+iMha2xpr3RVPB/NLJqTrDPbTYnnjzi/JzRgic39fbccW0f01ow6DO0B1IERswcFfFdqEy+o0/Q//GMGUyLmQCJ6H8s7aKo1nq6KjPl4njvabBArGpAr3062mgdUIxleq4cXru1460oqiXK/Y3JDWnk1CsdNHIlp0vr3whUzTn2bpOJ9qcYxYuuwFPZE/ZRf7hGB0K3jsfZ+svOjM/3D7M/dHNT2llpIWCwZB4Qs+TZ74kfeF1DeU25H84FXYHmSwlH0txcdOwhhRUVFRcV6xagPFbYET7+YAF4bBXGiALG7nTpj9c4K/akZ3ii0YxW46s+R8Ig/sLBAPvujMQEVKYSVt9pzvtwnfjXsIPX9CAEEAzHTPL4axPHZCD/bBDIAJw2NCQyDQfRisbYjRUi9NORYmQjTf+ZNxMs7h/MWXJD5MyQY5it/e+Obh70TigTe7iIvq13+yGpjXHTfKcbPPsiRa6UdixNzJEhAMluzEpVMpc7ZzENLiE3ErJrw9lERfcVnyuUHe7iSL1a8p8IiSUG0v5oiTpCo24ifbKEqG5+DS92xoS5U7VVRUVJxpHGSVrB/sYIeWgPa64TIfFcV0mwozTXWqpmUBDM07jmIzBU0UogwGldtO89KBNhe3qDi76Mx43IuTtA0+3/RTW2KnCUzas6otlNerrwT+vRE/yXxDL/xeU9k2ucVy8SeIHPw5rmhTaOCwYUp58yo+TzZyHcEliX7Lj1U/PxI075OjReyn7Zy8STQG3P1smbh2cgefNEBlyqgM3eQJsM2uC0Dxnslzzp5kbeTH+kzzVo0ukHi1YkaJqFihKYkLsWgplmKh9nAxLo+oMrFz3toqKioqTgyOc/l02/Kaj2ItEkDrrtEcISZeROU0Qk4Lkkp0PkBqehNQ954FujUBFLu2M0selvktPYEY00Esl4vbfxVRnW1H51Nx3Dd2BtvoFNkUCydVeD4PkylLdoSGg3uQk+pXSiHLAKdNorP3CJFpgzgQWUtGKN9uHyP3osG1JqeL533BzbRdnPPxIjlMhkS90FR+sngmMHXSzD+PlEBurItybLUmjYCtiR+Or6aWUOIn03NmB8n8pfy+nTizahtu/ozPOjLkieK5dVYukdHzSfudarpRgEz/Xbd+tnbm4eHzEWVIPvSoA5MsINA+Oyq11CoRaIF5ynmsoKEVFRUVFSOOc+DcNk4H8zIRELWQTcgtfnMGZRJXsq6DJFFlX8OPvEd2CYcS13bgCI8W3SGVwnzSg6gFRAR0Htgp8FgAxQdIIl1T1XcNoq8A7spPvcTWJajqBqNIGh/mz6UE/gkvFm6TiVwFAtN8nLeJRhpAXCJEADAAoFCdnd7Sh47UUWyw9N7n8sibWbyb+MJaU661ZfL4Q2hqK4qclXMB5vQTJ/qGaTOeozeq2QcgvjkNtPt2uQGKiLrG8HaY8jwu3XXIYJltejn1vSqdITKMgyBgFqm4kcHG/zhASR+c5XJKE63lgWZNVhlkJJhqbor+TIyESgqFpVabcUVFRcUmHPPy6T7GLjfSt4vh1MXvDehJ0LBNJ5e8pSBFfgq3CTUGG0F7VE7iECjNBAOQu+FUcidc495teXsbxrQqtYTvuGWHuGOHXpzWwVX5VI6cy/F1W/ebK+XRvjWp60daRIkza2Isgjtti/QirizNOwZp/qiU9cN3lc6gpBKrzv5l7JZ2Yj5qgqqBxW/D48GiHtczhkouF7NuR2iKQSFAa8yiMQ0SBjcQNqVVO2M5qukJCnhOZIBJLQvIhxm+cOTILl6MAdSQwUrJ9K/KoyB8S+miXGxmMtOKioqKiiPDPkxmGw6ykhjSp1R6e9q6SOheCBaALJVzs3mnkjNAHWRi0y6QtURc/8OJrvAzJARkJrl3iZXzjQ6ynWNrgGaT3+fReRoi0bwRqzydziC/rcgjr6lnNOYmm7XbvGfYLUYOji1Ex5kixZGYsgShEq8yKGeActdzRQIfzOckQKasx1NMXvoxAggX/jF6ad0DGCykNu8FwVzBIoxUn3lC9+sXBEBWZy/+zrEMvBFyWZpUClVJBQCNFGXGYx6FLzGQCHCYxr2YUCFBWkQhvZHmpkz4DCvzmdZGWFFRUXFuoE4Lq6bLZevTnPBW9An9iLTrf73xJIJX44gWDlEswl1y6hP0t6/yW19nISciNJ+rIUDEjFq5ubS40i8pRCGciQO37rFsDDYunaklOf94uMkBRt7o5KxS3kN9VG69JX5ETV1xTxW121LIG15E1B1RpE0flTneIxOb7xEmCL3us6zDj5eeUVTke0FAuqaiaA0aRINgiQyiayrWUioVC9CkMkgLk9JFM4353Jqe1JYsFf58eAif8FgH4wXlFqRViNIkTXppcQPtq7zdiSclbVZqcVTuVFFRUXE7cPymJxUbZCijTzKfNfNNJux8RITttegwoDHN5AF8fC897wnpMthNymJvqUX0OiYBgLLKP8Kpm6OPgcQZd0UNYhq81x35kS3u6CLaW4WMuWU/SIih3Yi6ARj606PQ6110Xog/8djTquO4jWVHuTIptyEZToUcS4btt3SbD9dKqroekXw1clbu/pAWV/fEEiG7rMnSdg4c18SEnqid+KqdPIi4hYF92swQLjqoyxApPxbn3GOEpAaFJCWziKCuqCnNYe2sdRTVlEmTxI+IWcl0ZKGodrqKioqKinOPxQk3j030KT8JRet8a9c/CQCBwgMwcQ4IANCIu5gcSuwJLt7kZ2JMJXWmBQHsZDq4NVhETNmFInEGYUbjyj1OJoJW874wJ2KpmSxyGxT9zZAaMADQVBSK777JtiItiuVQmRLXzrkRTFIjaeeU/FMajgaiYaWhz9noUp7THfqwricpA8+HEWdup3Ducfk9SJbIMoqSdG5BMIQF7GxiA+neNUq6kmEWy/nhaOMCIjLbPFGefmwYlyPln/+pJpUaNCI+BuowfNhaOcgSoiRIkcmI0uH9ExI/ICxWNbz6Z0VFRUXFkeEkmJ6kDNHiWwoF5yfSaVCkjGJiu0l5ymyN0CZi2ukiTkvKyaWOWSFS93VGVp4OscWc9uy3hOyGmRr4lBsWLJAEMVpxT+34skSeIPBV1PEtwI4IRxZHMN0h21tKKcmqu/m1SNK5fNJbuVNmddggGhivXV7YrqY+Z8Vk05ecldzzG6GbLoPOc+kUC5I5rpLBN66xJVBR9NmcxUQyocCqSKkO0hjchU1xZ2kg2llyx6sylyOfc9MTsbFFKvl8NFW1etUYo04DhZPBXtiQer61RuXCC4g/4cyKtDT5Q5kOsFdwuMn8HLfqituCyvorTh1OQqNNsZD8ED7uJDq8OAINP6kfKgKBTpZ6HmJgwSnt4iwFnr/35e10/owLhEm/JGkRMwZJ+ED3G7QyXtR9VgNBMzEelUVEy6/etcNAZDbzlb3hb2c6CKSCiFMu7k9rlbq2BAMt7G/kyVpIOjHf1pPzBiiX7lxELI8U1XGHiJw7PhdRcZoHANpeQVg6EOXQCqtdY9AQ9GwLnwHAaZuft+BFJ8o6duPTQAQQm0ad54lU7Zx5jxGZaiCx1qSq/RFBIvavDBzFokSA40AhCZFUj5uMUilg4k8MP15+v2rFyvzYB2e9bVecNFTCXnEacULarZxtIcuj3EOFPlmAwa0cL6nGqKqMggEYg9bSvAYvl781urBLXD4Tz7DaJ/LrUyMsnptS4zUGiQKmguHbBoDcViXpS5BgJ1T8KKNxA9UYPMB4PoqAIL7vFdJ3BB3qBFRKYNj7aBP32KFaJ2RNyZ146nVSi0hpd2tLLGVUKckrj+hW3NZg4ApC+LKX8VcpcO7Du8mZhIPK2VImPpjOB/InjUG/61UX84SMnceIFHFCYSYhFt4/hIK65W9TgVc2kJXYVq2S3kTFhOJ3qndhmAIv1gjRqyMqlKMt7orzjkMZTY8uwYqKCCenjUWzrVzWg4SoCn0axpPlmtdpdRooKIPWoDMU+Cez14TEvNKwHWjemTiKk/cpldetlKuv3KkeVfuXp96RH7ZpRr/e/Hoo/l2d5E4JcJ3JwXnxjoIhzEoTTt/FtfYMxT0i7uRSdV/dFFzoBEu0xJEibtYoN2qVHM5RWvGhuaWKzuCtgRTT01K+ztt49Gk5F/+selysFlHlOXFxie7MS8bTWh9HXpvbGvS2ZfVMmvsW6abyzJueCpGxeURsYltrpYOo7sc20aVk5Xa3aHSGxJ8RHwXtK1TmmhFjM2prr9gDi/3v4L3zhOi1FRXHA9w0yxVs3qPE75VZGe7GOkWc2Kqh25YWkRly9yz5g/40GaA0YVL6sScqQ7jpzpGf2QXClMLOktuC1SLi5FrdkGILCmRjH+W28EkFwP1wlgSDYCBw2p5iEV5hbZbY2j4koRPaM0xk0lfKULB3DpzDt/SVSN3o/23e6Di4g21mLjQe0sO5lKDpleoND9a4Jl9bVhkP5g6NvNx50XDk2mdC4YpdTUxkKWoGNC5YzEeSIid+rv033ACsNZWSXZHeS0RUFAaxwdElo3sVtedzaHqCrMIPGpviFqdFA4mq9qf4SCq8EvQ4ayoyHAH7rb5yoLCMVuUl7VQrSqei4mhR2Kg3Bzs5RoCK84Pb1er2XIiMoNAnpwwt65xrl+ui6U1GF906dSMt+H1cjum4W3SLS8URIan47ogaf35j0kiHyR/3+Oe0YYzSx1dSpeeW86OpGbkeqV3j60HTjbqmeOMc4kwRN3jt817vPM3DkVouwGfqoqjSLtwCFJpTVPAl4/HMjziEltozeSgDVMbI6awujb+pNiQwjUHVP5773tS5JvkkOhnF/2yNUuM8sL8MygvcE2W+KAWVQ7qv7sx8wbW/peCce4woQYoL5LveWm2/iDvdFqRopXwlY2VkTrEvNdaGb6+Mq+LQKBwpNwerI3HF+UF+9ojm3MWuodCnBlHZtpdHyayO4gkAuI15FgCmC52mYAse3thJmNHtwpp5y5Lugq0n6kzgjRARyVpE9FYO/yrlZ2KYDoFE+xUdnO1rTE01HzHeiJN2yzVUC2At8Q2E0V1S/tiYs5u5LDa45wYAxNGJdkDz0vDbLEfBiGh9pt6gwUsv2igYuXp3v/0hNEhIG2/OpODVuIEwfAgAvaXGIE6fY8SWxR3/ZmFfQlA6FGoMKudXMOtqAqb+kj8Mph9nYt4mXNNPeW5sMBB4LLGs/Y2XjDmEQ8izAW6Fljp/tMSkrjgdH06IepURI7Uq5yNGD4+uHGvzrjgoTotp6LTIWXEScJJbS7kVF47H8x4A9EREgG6jEZtjOCug0DdA6hamAASwyYxgKbmZDCEoPwS4YIy7b3RVFuq9SeiuK82e7dkJ9V5f3Xfu0abfPLpjZTvPe/jbNffwytpxnI1vWos31IWSur9K3MFFkKU30HzTK4QWKlCvzSVFPGA0yVe0t8vJEhvrHYH8jUkIFoCYJDtLUSF7G44XVaUNuGZj4SK8wSrFoBbXI/gGP29mjBZjTIPOB8ys9C99gWHLMWMJT+nu6X3kRGHVlIDih0yKN/DjU8v9Z2QMNUeNVSvk+aLJy1+NRRUnGOVDirpALS24cpFhn/69TQk+yapzxTHgxDaA/K4F1HpZwb1PsPJzMf5z59zuUbzhzWqxSryZeTiNsJ+ueAo2JllKXh6ahRIHl08ZRVC5k08/475syrA0l1R86/VUARmJCPxVWh47S6Im5ypT7ztaVXd5qAlFD7vJBtROP5QNmZpIbvdm14yf4D4iVWOOCzVhR/FBU5/cWwpY0zEOGK3Bll2Q1dPYLzKNTr3f2XUo/Zbh6WHJTVO+YOekpqHogA3mtmMfg700PaXeHjkKN7alHh4RqOAIV8rupEbE6UsXq62Qy51MjaAiRL7NHmmL3pB4udkZFbUrjhgthMko+6B8wX6fcbKi4uiA6ckXwwD+SRl9inrhqh4Q7lAh9ufA1alNsE6Bm6ITzGoZTR7Y1YiZDFW70KqLaFvE1JTtkVEc15q5IriV/gGSNF/yBE/nhvStssBMSeCuRp3U6+h64nIFLIWMUt6PbiFH5b416ElUKhaXzUsrGWxqK+Y2RImpZdJbytDsg8DvReyFiYwDw2YfFWQfFiBNpsiDSHj2ZseUxh7B25cWx4rbAzlXeOT1oA01mllqWnybN9LlhSypqsLqOXvt+PzhSDud2ofkE7UtLzY3HkuNeMDlGFoaAFIop1hrY1WcFpw00xOJqQDFKx7YP3e/y+jThJ2l3UCp/meJdG1Q7pHgq/J7FKc/6MISpvBPHRs2TaHIK7X1KKUSy6eWQNrNnG3EALSYvHI0QmfQRekQHZvI1Ks31Lg8rbhIygfLLzo3JmCJ/eSmT50YXKaFKnc+VG/H41XE6NBiLBD7+mASadGE4oqE10W56w6+hY/DZxoxfGcsUo7MJXIsb8kZWl7ifR4EZdqL+SEbjU4zUitVaoDooaor0G3cU5bSwiIs7ohbi9SowRNUrUByVTASI/MVG4rYp3nKG+05xDaN/1D5SqgNllgTyw8jmX160Sv5UO0ZmSWIkqXA2iEqTjWiDsL7lOdLcpoqpU83rl+74dR0TV1zKuxAMEx8gMvCvcl1/hgEst+Jz5iRUDdQEAx3qMhrihnlUr2QV70FeNTRQ23Rcx6fF05b2jKntiJu57VkimgMQmOW7z7ilYcIDXO8wW/vjZJxirjftGbCT/anX/IDYmdiCxtNRaFK7exFA8Vc0cMToUE7KOX/boRlT+4hXEA421iixZnVV4S6ZTEPtRIjgu0LpLcj/ZcuGVBjUIvcafRp7t3xa8ENji74fc+NUk3lsq/3PDxEIrcbquKSV31KDB63h0HxDzi6eim05+S5SkmZqvQ0Q8MWsUryipOE47QX5g1HJYElBcpNT+nsMmsI0avM2FWyHpQRb1U5p9Kp9OwM4KSZnkAb+xdXDnn4Avp0/erDDz0KAPDY1Yc/+OgcefoVH52n6SH7M9A7WWDho2y+dmkmXeoSCgA4jxEIHbr/ncmPc5bt/rSTXhibWaY/DUCDKJlhb4nC22z6aW9bz8wd7mwMj144n1rtT3VPlKqve316x3bQ8SNMzRSSp6iaIDxlMgXqbKd9JgJ0abfmnUG/NW5RL7TZqW4fbZt/u//VTu0kSRKyaab6D68yaYCKrD2FdAzZuSbvErBP0FGPFnFeTUCMOFhrsAlvr3K/fYdN2dxQPMkIwKOcK6hruimSgtMEc8YLqvzzfFlk1EDQpuXUKKPOjYWmNmT/ybdRghUnG1GTOTaDYjnrj7SeQgmlMRyyHS5DjTKirhqg9lma2KaQ6CcAACAASURBVJbj0aH27DOJqG1j8fLlsue9z34a3vyu+y8BwOUHHr732g2ASz5PjLd+FUmK8w9/WWrsPQ8BABqCAaZPCQc85Ivx6atIyaUAAAADgCEAHO+38WEsAEyuxiNJe+cuUEzP+W9uEKOjNWp4g8F5m9nsk7jAlJ+T8b77okNH7o/BEuB4k6zzAEGcmmqSyM9X74RFEcYSuQuORsG8++8pfJRpquj8pbeuHNTcOxO/4up7OxV71PQ5qW4BCSHlB0Rmmik0h0a7bKoN3dajaxKRrRLnc4CFe+c4oqIZiDJXRbUh7Vm7c5WYfUw6jVwcaHz4qG04h4dn7w4oPlr4wilR78OhcTn8bcBxrh9yG5wsRGTBQJTOAe13KgOWbytOLfZv1FHPXbU+EKXjHy4uwkp2RKKLyH4jWVlKWi8G/6hU+HwZlpTw2ZoEKmKcQNMTh59G1H7HOziHARDb7QJcu87/unxl5E7Xrz7ymNt+pkVCAEw4SsY5AEcf2k9G4bjBioVvEJqs72+PSIbRU58mmKqsd0KxLfEhUSKYMw15C5v/nC69Z69lBgHJnYBXLXvrzGKpXZd5OALmk0wlYqetjO4/b/rj4Tm/VS02jQn84MFU/u4WstkMQmBpPBUm9m2OueStbZZmjxfSs4jPtNUMkiqc5C1ig0Ht8J2ZQOP5NC9Og5MdiUnIs8tnTQX8HABMdtseTG01k1Ps0JLisaJljSROPLonzZKjeVFFn3ZEhc+1mfI5w694pehAKhYcdlo6IYvAqRV4+RaFkQrCwBXnG5HdRraLAzbqVFLqWkleKpmyKnk+x2gs4hFTWVM4CklKlpI2s86wtoTppHbfszJlHTdOOHdSUdLsZ80ncS3MlTdd+fMPPbYyZwKIHH1l5nma7tZknYaraHwf0aR4ldZFtCTvjQBJsQVap+cRAGM7wY4mRCB3Dy8ED7Mwk1LrvsgdCpJe7Dx64Vg8+SHssRfJ+ajYcNa/EUSIY2fnS3L9sOvl5FsfOadKeUGIv4NgZ8lbxvwJtIGoJ72gfC5tyGR8gn1YBjaxW9IdB1oFxHgP3nyH0sS6XS3nne35vXn5XXlRF0hZX+dg2apvWXK8bWfu6uV/NmKhISLb455SAIKxEBYvxTpdkPO9qkwQBNqJGh42aRsHw+2a5VIcFNjcwScxXr4p0rkPVhkR9oxVcZSQdXLAZiLNO2ouGdbBn8t0eDNHMXREnQDZ70g2n3IkCS8cCgOTeJspNxRZbAOJfE8CTv8EVVGK1PKl2tNn+uQ1ol3k+OvV73szPPjwQ4/eiDO6duP6ta9NNgEAgOuPPv7Yo1+5PiXNFaonHv3sY4/eeEIRd3ft2hyLxVD9pI0Ppg0/WbsZAAQ3gY73n6YDp155CuHEcwqfJwM7cjr9uDDfT1evphgUihMjqduK/PPdpHEPbO1flzak+c7O5ivUXwGUQmQDzAfOlLxzgI5aISye1fHggVJ5pTihWvap67bmIqX5IFmJhBEsi04ExnM5gzvmo9xmrwUbRU1crNQzK587tjTbl0LQVN19mjXzUvK2zSgRFeMQE77m1lEukr4ccMo5E9dRvP1DVeMjnQY0zcBH94mXi3EWQOJfj4wadXjTG0s5ry1yASKckSo5y9hTO0+tdJS03AyRUxsOiqGD8x//dtHqRWFENZjvT/xPCrOIlMiM/CUdSIqB2SK9XThRXO404uQXYKa3ZhrhTJ+8xtNgbLS59Or3PfwAfOahBx957JqezPVHf+0dVx+H++979f0Aj/7OO65+9Y+vPnJ9fPXwQ1c/C1de+XfvB3j0kbdfvfHY1UeecN3r0UfefvVxgPtefT/go7/2r69+xScohqhZsx9omG6zMQW+L7wWu2hPyL0P18hxklCqhuSdUuC4X2uWRNv/liEG7kch2ShEJi2p01OBeMnUaCwEmFiue+A178x3uZCu4lJ5+UKMFPEU/ylR13lSGxgUX3TwxHUWBoNpsPROZ2Y9klTKps7suX2Jkz7qbug6+BVTi2w8D26ZPHVkii+1SuVGBs7rBKQMeGcFJTWLrIxQKGUkfqtr5pCtgHJgsdYmCfFpa8anCyekdNW+nOEwUUS5kiJNrZkcM2J4niM70yJ38r99ClIZUFd5VlXKIl2M3mbMcRUVmyEnXBKjeBQAtX46sg++e0ffGnf5/je9630/DR94+IPXpq555dLlK5cAOvPpj/xH+DfveuC+ywAAL7p8/z96919//Df/NwAAPPrIVXj43Q+88t4rAHDp3vvf9K4f/9D7PwEAANceeejLP/3uB+67fC8AvOjyj93LP46JMDjlm388jUcymuKdYB65S2mzKWGoKGWoBXckkNq0ZgtMHI48KIFS8UqG8HTUAwJZojMPJIKJQGZMIjtL/IBNwRbFmVdID3KzSEesk8ratFY4VQ9lyHAPt2XUMPqt0i1ZiJaUA13Tq4Dg7V8gfi1A+n5M7ARO4+QxhlUqNAmtYk+cvPLYisx6ez6KnLJkIiT+TKWvmvzyWeclLEyw4vaBRIvYPENmWpZU9NX1ES4A5zbliylyqMlI69NX2+miTTcSe0N7jwxlMko+wVTitZNV7I/UgmaJ8ZMvIhhw7grKcr306ve9GT7wyBNh2n/8ZfPA3+tw3rqDcP9P/0MAAHjsy/DA/eFsd/+b/+HfAAB47FPw9x+4NHb0J37nHX/0ync+8CIv4IQ+cmsWEpgNi9+pT108rQTRQFC2SMn3g/EdceVyKx7ViocQR46De7cSbHNI2yZK7SQMLoL3gyfBeUXKXuQeqIr4WpVsg3Fj3X3SWni9QYkVa96G3bGunkazkmHPU/lGxrd8XaXu8E1hcQ6zpC8ipJ5nMjqBBqjMYq3XS9SmKF+Vf1xmnfgsILVmDuFzuUSfSqQEKS1VDZl6lU9/Q6yKldimOh+qQ2V6evQ8Pz1xbpOK4p/LTrA4qqidKRVYpikT4QUYiepVyVQWJXw1LyFpISsqViGz9sFXNFIhZcMLrE95zKo/0aWf+Ql4Ikjmxl/A5ctxlEtXfgIAblyDy5fHK1O9muheAQDcCwDQmid+5z8x7jRBelHTv2p9f5JnPPy5pjzcLiPvEYGW+rIrseghAewsNcW3rxoMKsnHis1o2kDl7F0DUbN0vexRjEouzZZ5pZNhMvaiTPGUL2EDzCflUm3dlyQv27VWTRlepyiCdfMbnGhSHC0VHxIj/09IpRLirzp0lPL+55/nrUx5+aN1gZO2hS+zRqvqEDI6pBeYM0iN1GcQKOauCJT4HSWi/s6HzKCEC5E+3lacQPi6UmusvG9yLZ8nlVpH5YsAEYWLnvN05PPUALK8aCiy9r9TCxeZ8QoTPYMTPBmda6WpjoWsdhZHv5Kh4hhQmN1JmtDONVINO2+JTQXzSS3TJ67URtfIOqEuXYHrj01/Trhx7c8B4NIV+Iv/SkMY172CewGeAMBrH/7gp/7OP465k3PkHS9gy6WYPc6gqxeDlsDfGmQQM87sCv0upDYTcqkaTdT48iKRTIvoPZ4NoZsN6RYis6dxLZGQnyC90uVjbagUH3daFVBcBaof4vrVEFZHyrPfYu6OErQJrhjLoxmgIrhXmcQMwuA37JWom8X3LLkSaELXFPzTFsvH8+eU5KcFJH6kAsg/9//KszwHryU8mNbj1CfI/ivMtASnp+lWeKSWsyJk1Cy/JiLBdRNiUTLCYNmA7dP0KmAho/DJSkk49+P8Sv3wiCChNh5G/FDKAInSI/E2RUdl3CPCqsXZfDp1nDg5SDXRVYuV0eCwQJ92n/73v3M9ePL4f4AXvorg8o/DtWtjSq/+Wfijqzd4ttcf/cwfzK++wvP0ry4/cPmPHnz47Z/66V984LK7Ywc//d8eG/UzRbUqGJMi194KpGs1ckfws7EY3Bq50whbo9+/WmI3g0n7RJzVaI/FnYTON8B8Yk1k1oqre3mmLWJrkJjnOnkX6vFDzbTEPMojtuMxs/HP6FZWf5cXMk8eA40bRKW1cC2Dcu4uosKMqRQCEKBzXo/LG1B7SxnbqEF0V0gVyVe42MI+fCDoLUUXjpXDEqEoAZOglyfNAOWR0r25zsGn/2iVt7DMSirnJM7Hq6pskYl6qBqfujhfkmmhopqXAYQSXdyhKg6OjLKeMqGUpJmqUgrDcCy2goxJJ0pc/ROypCKSORqskOXue0/0AxJfFDElVSopc56mRgmmFL28mpuXRIVaeqlKyTetQtSB4aQhmpch0dhkV0oNKc2/fPtDz9y0ygEb53768kvu/v2rf/g/n7r7efj0U//jD9/9qbv/6QP33Q0IV/7WPb/38Me+1Nzzkkt3P+8n77/nDx76lT9tX3w3fPPPPva7n3niJW/6B0//6fNe8pN3P+9v/swP/uE7fvXPmhffjU/92e//7uNPvHR6BZfuf3Fz47/8r6ddrF/50O+9+NX/5MfuxrlX2egrE6Naw/yzuf/XD3MR7Jh2ZgkaRPeEACgVSwCZJI1BawPBnIqZOUrE4YodERvEBhARW2fByAgyfQUBWHI32wZszSvTNpGAAUScSaOdiqJBjIRGgDZxPXGDmFf7UxFlOkBAAE1iv5xZygjSB7ocpBgGkWj8cFeGzfREwhVOKnHH2C0BQu57o+Ly3sZx6bSSF1gth4g1FXE9BATsifLfFSXlysfF8hyqcGuhy8U1sAbRwMKFuUft5COP1EhD2qiqatfqbzWwjHsiyWMWhUusPhgmijIKA+HcBQVGpJQYh2U4spKqlnQ7QIm2k0LU7vxvCl9FiahMSU0QNP6QUctIS0GVQX6I+lBlL9uGFFW8fNdUJVzUSiHsnZQOxp+k6lGNogqgZgfhV8uq559TO/2JRX4oyHcxtbWncGeH+OTXn/qrbw+g6aB86f0r158AuPdFl6fUnf5HMBA5BdQ9v3H92qXLV7R0nvjKdbhy5QoC3Pjg1a/84gOvZAFuPDHFQhkxu6xBAMK9NSb2C0lLQmdwMZaKwKZBQELnK7Ra+HJTTUAqopQbRNQiZgRwXxoFyB9MSnGhVC4NLqjIEoMlE+ZiCSxRG1buqrwovVGNJ2gAGlEgHCl6Frl6X7XhcByjCXpaPEMHjfGMZSS9/jZhDv82CYwn1JTMsnnwJxmH8iJDUO+AatNrFZlau42I5ukIqE2up48LbQMJvUZVPfZRXko0GolIQa44MSgk3RviZupZjZVXLkD0ZWTP1QAQtmJYan1y6Fhs1IVtWdKYFNmLAqRoD/+cDJNJZSo7cSEHLhlOIKyO1JPFFDARKyN2xYlCpnZItPbMUtjiRH/PXWbeGyWVIa5ZvejyzJ3GbAgAIdo4JLnTZx97tDPYmSs/duUKAgA8+pn/8+OvDMNcuveKukYY7GFLFIn/AL8Fbj7XXrArrxWxShDsMtq7J7m7Tbm37gyizWwqd8oLtUHeyEMAEVga7w6Odh4igL73MpP4dEArKgF+I25Ky8/kJTktSzn8c0nClCWRyoKpwLKsObzBsDWosg9T0F94O8/UEj8LFxX+qvaT6lY209Szd1vfFkT6TWrm5n+etE84QmD4Q52+1Cconiwqs/zfVVKp1bYKKP6TuVSUYZ/S2sCdMpWP4dtUz41qO5Msho00paKpCcJS005xJ7WNk/gc+UTmyMkDJhaGVI6xWIYQ8i4ZJlNHPIWIyfCHi+ovaJJHGclqzSjZZwBnbKpaVH0zywqkPeSI3rYZORrEeA/a1G/GbT+kZRN2uFfeC4988Orln/nZFwEAXPvQ1S+/+d0P6PkVLimEefkdX4ZbIfw+PaJhMo5101Y9VdydpS6/ay4Nx6a47po6eqRiVfNtDHLVkwB6S9IC0+ofO6YAoT1BHr6KEDDSUPQWsWOUzt1uvMoOk6IQkebt0nQGFsSYtkn0A/naFGdvYGBls8icUzQsquW1NhMiMAi2YHUcQ/cSvaWMT7xeupGYUummql+0diKOixcDwUDQoBLLlNE/18xM6Loj448EHRE9SXMUsoH1JMl1InF0BZRXaiRS6+EHzFr+qDgoClf9vfa8oR4KBmA9cIogReHVJ+XrAIVSRamtlSp6nuo6i5xEcq188aoZYdbipHI2VZ4o7uLXlbPZjHinDqdU7ENBNk7e0hYavN+8B9oaP2luwTIbb+aGn1kIikUQUocBdpZSNVy49WjeezbRKtQ2sPnnCdEBAIhgIDIAxiCnTHLH0aIpySuU4w6u4vNCXBivvkvu12vnrxY/MIOYO03gteDCdJMzbirYyFeyjdAFU5Py0X1ESzCINiPjei8avsxTVZba14oAzcSgtrkKnGsw21hmUsSeZMKrGwK7BnmDGR+mN22qG/bUkClEKaxqeydkCx+fWUu0JY9tmtx5QUrXUNcDMZwp1KXgfFmXhMlHX6ViV+yHfOtALaSsn6jDykYk9Q61enkw9W2mURxnk0l9/gZhUp8sn2e6pjpgqinLGlRpjKx30hKXBCwKnFoJKZlt1nKk08KpToucB8TiWsNif7nnLqNZn1g8jHQgLLpe1t1gM+pbcrhKQWvXlFD7Gue4rAzIfnn5VY9nBDBYiliNV/s8IRkABkt8g5M0QCWMXewTmF/vTKnuLM16J4Flmyr51b3SO1tr0FKw726RnuWZTMrUwM1NjcEmTGoggqy3gNAOlgxXcm1UN91zJUMORJ717yZXclEY1WaYORNI6bpzvkNK2MJow0l3VlPgfHCgwIV+K+4xQ4SoMThEpkJPnEB0EGeDitClz4ypazEnHHKU8tWSmtfPuFJ91PNqpMaCVgFR+EwKPAqFYfbEeVMubisyhZ2hVZEyTVqY6Hemv5cg3yhu71ihdpT9U8iTIjW6Sm/8E1VthfTA455LIhRxp0gMH1i+yiBKLdNsTjvO2OdwpCZuGWYDZvo0qzsisZKFZ0RocTy10ERqaNSE8+sMmgyjkkpLfYsJHN9PtZDDDAvgCID/hNSILClT+Bo6XKFcpjBSAmb5cRvPHBdCNqBIqA4GUohU66ILlcuS4tRlfDKxC0s00GqzWwaDpVTz8MTYQVrnOoMd4kBgQ4OSM2V5CSXL4rXjviW/q423ilZukeVAcJ4VuQEqYmVyIaC31IiKT11x67cC8mvBZPvkf9upiNqJhXpuhszRxT5Y6FxHA3V0ySvwZ5k77Y/UQI3iB6yfw31tcQXtUPUhk6o1fbuh6r4Ra1LrjevWUgmWujhPKlPthfp3SVL7QNKS/cE5UqZXRUXKmYZaKWqBcEbEs+aQg3A0ckiCtDi0ZHRJuaoDaypxLb86Cj529jjeBpDoHWrzUBu5XCaQGOnT2q1HkhUQQQ+jQQYROr9STeM/vd9PRcwKJCrZe9tzRqfg5ZpxYttmKo6S80vBWX2cDVadQb+NLTKdbRBM2TVH0AN14nLYwo1wENoZVOwzHKPW6PyGt9ZgRAV7oi7mV2Bh3RkqF9RCctjwEqVsJo42NDgawdRbm51jei5tFMxtnMtIHtEYSzQ2Eoh33HEekjrvlKJeAwufJyE0hQ++wlK0u9VnHln8YHLgYaZC43SOF/X+XfK249yp0NtqLKXA5qPkeWo+SqTa7F9PJSkckK2dM+yj26VayqKWn0lwT5EWsWczWWxoh22tecYoWUTEP2V0SjyPkuUp5Ksj4mkyX8nBFldyKBF+Q92pOroKTh0P2/xO/Vx7IJTPRakOkuk4LQi1ZmfJYP5OGD21zIFvuUC+Exqzy9o3/N1AndiD5F5FX+MsGPJD9oTcl8V1wVYrH5yMD96yMe4TQ9zHNUVy11xYhpISpLw4qHaGiPOUH1NRwzWI3hzRGvTaufufbtoemUJjoCkorM6gK2p/kCzjz6DEKOK3qKXMhjtLBuZreVPBIksXR/TVNJlZ9O4AAK64UGdBNt3pVpluTGgEc90/f5kBf5hyZb7WjwjHURigUqUlVfH8qlWJbn+6sW0+52oLsaJcy44oTERF6rm6lliO1DqkmlHFJqT6YOYVsgBqwUdvo2CRlqwq9IXVXghJMA6S1Nq3a4Px8W2xJ0V8I5Wd7Mp5YeT44f+MUpBDS0Si5HBdwqxUrRO01DIomWsyOe6DI10LOEVY2+/Kx34HZYtWk+VOAMxrmQgVr58TADKlKly12EXWJf42M0CG+faWvDyFty2JNALkN625MzOdCTebEews7SzJ/X4cqd1Tq6F1joy6H4sRPoncA7SILSrngiDNTlWiZXBKzbEalW1OdNIA2KkM/X9qXmrunUF/XC3j0s2/yaTtKEQ+d1vQJTOb96LiijYuqt9OWXNWCuscqTNqjwnqlS+W8ha4RqwD66j5+Y/CyTU/kp7x+Wnb5/GC46rNZiYWPZGpoZZ4eoZaAUz8rtiEEg6g1iSvTN+m1ApZrKWINfF0ag07hDpa0pTk6yJDemWaJNKHKTqJwBFjSXEkdTCQgVGEkUlRKGFeCVURNVc1/Kp1pEUB6hpOHqgN5HIqV4txcUxQXEeomm6HtkNrgBDWHIvBVCaJwPmU1a9pioU5VEQJKZhMfJ/sSuKWp58PmW8ya79icXY6YC34XBbTXOwWhyrMDbGaxO/9BVgMuWeAw1ZlxSlFIevI90F13EDxb0mCG/TiTO4VFRUVFWcRBDAA7sjcopiKqBRrmdm0YO8w9uRdZVlRUVFRUVFRUVFRUbEXEKAFanG4iPZZa3pmz1H5zzJ9umgGt5nnnrt/4OLFrinxo1xRUVFRUVFRUVFRUXHiMVh78+buG089bYjuMsO37IINaoELdWgRABF/9Id/6K47L1buVFFRUVFRUVFRUVFxZtAYc9edF3/0h3/InUe/gAt77oro0z13f3/bVuJUUVFRUVFRUVFRUXEG0bbmnru/HwE6HPIhF0iRAQKAixe7g4lWUVFRUVFRUVFRUVFxwnDxQgcAjTjxFP29cPZp9GRW9+xVVFRUVGzAk5988MGPXudP7vsXH/+l53/sbR+Af/7O171g/wy+9P7X//qfjL9f8dDv/bOX7Z9kRUVFRcW5RNMY2Oa43CN1PW5FRUVFRUUxJKv52sHSfvJr8Mb3fvw1zweAJz/xjre87ZO/9Z6fOwApq6ioqKg4x8hfvJujT0NlTxUVFRUVB8bXPva2t374OsCDb/wwAFx+w7/9qc//6kduuHeX3/je973m+fDkJx/8DbjvhR/98OMAcOkX3uftVFNc//AFP/fLE1t6wUtffvkjf/lVgEqfKioqKir2RIZB5eiTdn1uRUVFRUXFPnj+697zXgg27/3cx18DAG6n3wc+9tJ3vg4Arn/0L3/+Ix//JXjyE+94y2988m+/5+deAPCF33zr4z/13o+/5/nwxd9+7fTQ48kvfv765Ze/8Ni/p6KioqLiXCF3qKmt/KmioqKiYl987l2vf+Nrp//e/8V0wBe85L7L0+/Lb/j5lwIAvOA1r3vV9c//9ycB4Euff/wVb3jN8wEAXvqy6aHHl/7zR2686ufrzr2KioqKiqPF8rW5FRUVFRUVe2DZo8OTn3jHW8b9e5d+IRnoazfgc3/y+s9Nf/OQX3r/63/9xhvf+76X7itrRUVFRUVF/gBTpU8VFRUVFbcVX/ztt3zkhQ/93jtfBl/72Ns+EL998ms34IUvfwEAPP8SvOINChP70vtf/+vwrz5SuVNFRUVFxTGgeiSvqKioqDhmPP+FL7zxl5P7vSef/Crc97KXAcCTX3r8ehz0yS9+/rp7Cy95+X2f++gnxmhf+M3f/gKA506/XLlTRUVFRcWxoAUAAuotdEY56UQACDBYW69+qqioqKjYhM+9a95x5+59esnLXveGjz74xtcCwOU3/NZ7Xveq1//6ax8HuPyKV12egl3/6Fte/1EYA7zEPXvZL733q29762s/MqUDAF/8wp8AwL9743T1E7yqUqmKioqKik0YBgtLO/cAAJ/8+lNPP0u3BqvSp7tM3wD94PN+4K47Lx6BkBUVFRUVFQJPfvLB34C31hucKioqKiqOEd999ubXv/l0D/gdq59vQoTn3dkYBDRIkjvtiHaWnrMIAN946um+t0cuckVFRUVFRUVFRUVFxbGj7+03nnoaAHbUpMI0CICA//eb3/rWd2NytLOz2erudjBAiHjP3d9/8ULXNHUXX0VFRUVFRUVFRUXFWcAw2Ju3dt94+ltkiQC/lTA9AcCFBr/3DtN2xnQd9jeT2/y+M+D3NkREX//m00cjc0VFRUVFRUVFRUVFxW2D40LftTlDUWOgMU3bts2Fvn8WiAB6S53BiEjtyHyzNxeNvYDUItWbdCsqKioqKioqKioqzgYIYADcUXNriehcbLExpm2NadEYsMP0Qo1305qboHvnG+NMrGsgsgSNQYW7sWDzb5wc/EXfAWCJBgIAMAhNmDURYEpWgZ2lBtFgsCkxQurTLMFAQSwiQsRMFAh3P3ZC8j5MkAfobfDOwPjhkeSZrLdBSpXKTg3ZGRwsWQJAaBF5AB43U/5q+AyigmrR1cmIwZJ+Vo8AEBCgnXKhqS256Gr5p8ROfRp/7iXxEpYUQj6v6IP6AvEipGTgJSNDtoaXcS7rfO4SfACQg8FiXAc5hGDoPAfD9LdUwxnD2rIuTNODD/IyUzUkhA8hTCFTeWoKqVdSnsQcdFbB516YfoPWX0DUAIRhznQ5Vdx+rOrZxyxDatqSs9KqEYsHiAYndaBSu6qKfP/NSMsDpAZ1WQhqmZQjPzvJQUzGOormgQbQoGlMSwRd13zPnfTMs0Ne4+Gqk1OqOoOzpAi9Ja97DpYGoW8FGo3UboLMAAAMogGtvQAgTgyqDAgbC9ImuBMADJa4bt3hXBqdQUtARI0oUgy/umUlJJVaC2Ct4thjEmYqB1SerwIidIgReQBBSwB0lrWz1Bpspt/8lSulddIsQRZUT2QAmymfxiBQXHcAAAgG0B3fi7V/AoMYjybpcgy6aJjPzpJrAJx490RApaTC0Zi5aQkGTgBm4nslCVpGETOgSX6XaZR0HzbFTGLtVu60QN+2iwAACElJREFUAXJ24c/9b/7qKFjDqcRRlAIva7WgU5lyghRFLCQ2qQlF5dAlwc4ouPYTTchcYyMtlppURcXRIdPGjo07LQqQmoD2FF4yAQx/YHakzGSnDpY+5fxqpnyrfr4qfKEkMjUJWcKqqAdf8fmeznRNC+7epwtte6vvmwaHYVbXpIbqFX3/amepmzRWRp1mcH1rZlwexP7NQF2DBPEwjTHTQ3Q1DDPjpbQj6ph+atLqamdGosLJSdr2o2PMmqBDjPiSyqmSKbBKWdR6c8p6Qie1AM30vgSWIC9FqqAsUcO+uUFoEAdGopwpyUeX3zKmwDJwkujdYXo4LiIIqYYEz8x9G0scEgYcn8KwRMZGds2/tIy/+TCLQdWSMRnSGUmYyCU/aMrAcv6IRlV1xc6HrypggHJySYnBmavhmbgeGUoDWhaZmZ/HKtf3F1M7K1A/S6o+UPtFRcWE8o7AiU3EdlaBD6VrE1HH3cxwGy8Zh1HyQ7iU078iMSGoma6aalJTCl8Dkq+iD9xzWGsQLzTQNi0AtU6cOy5cILr1ze/4HXzQGbRATjVqM+rQ9EFDQihL5ExQrcHBG4wKv4CXlmhBhSSBRUjmm0mjRdxNejA3PQFAY9Bu2ogFGlHJ7J0bRmsGDTRv55vfTiW8Chki5PebIUAzJb2zZDL1RkBImO0Lpf1kqVIzBWVppPGeADgSFYiBAGkaM1BgYHEst0EcdycCwER6g0WEsEZUUlH4Ng9p5soE9tsRt+UloVIvbmfDlXanaPDlD1VEA25myUr29cX1rYoRq0bU6Ec0iWUYFCbqKYquZqdOkrK+5VwTrZqeg7qXKg5ohBTgkBpGRcXZQIm6KvvX/l2JU6+89q+SEHXwU1NILXZF3C8VQKashpH8yqe5lppGwzkKUdVYB8T33YEXLlxwv0fHfK0xd3Tt3XfBU9+1PkcDqOpCHV939zKm6BOAOwSFnobR/Grwul14IkXFzhK4PWZERACY4HUE4I5gTQ98ytGxHA+DKJXgOfJUb5werOYre8OgXh2OTS0aoIhp0p3BVlPio817Pkpn0BVOhi76wona8dpjWhuoIEdJbyk09DE7DxFgM+1OVFH+mUTOLJbjV8nIYeFiuMdvf/Dzik7Aku8yONbaWguqg0qiONTBF7Icqep/R4VMPXmklhYjFSOq1GjCL6/CxXaTiaKqPGeIWckPdag9paIij/zgkVr2WWRc5aOLJwyZVabM4FcC1TyB4l+ZUYrU7TOeLC6MRvDcD1hpHOmA9v13movtBWNGU0LrshwsXWhbS3D3Xbtv36R+WEilXFlMWa6ch4kZBIRiIT+M2hgAgp7tEuyJWnY+ZSR1zF40pe28R4BB7CB+27ENXSrcXjsLMxtpJn3Rb8ODvd05pKgdCHOTl4r/KYs5eiCtEFEKGS3c14ssW4CxFXsBHFMdLBlxbqoEi1EMQOoKZ6/HL2dh1zHgaGcgqIsIhUAwE2OP3piprYJ26gyEyK6oDaI85eWlioxdzvNHygKm+CmhMSPUjrFFDjN6IqR1BigPqVcvvpLzBwo1GA40k519lPAiKO41MlhkB8HEKx6d/5mpJ/lKLpbKwJnGcbvbRGFVrEowQrRmUftIxXmGOnE4lIwQ0UyU6i+pvia7WAkliLLLBFMT50itZYE2FvnsUBvLeZhULlE6/s8UUVSBLAr/MxVyf/zAnaZtm6adD6PgXz3zXSJ8Ztf/yJ0XnLr2zLPPfec5ezO1Gy8t3ahLhcKOahzGlexMSbLNGrfbigBw8npHgAitwSCXKbwjP6NZi8BS6HItrDHu3WEOUrADcDGMdbu89mNQJR7eVoGLzT3myQQH1dGCJobq1K5cwryppCnjP/sX1G5IOh6JTuttSBwg58mw3MdjKrCkDcTocaNZKVPGAG6QdD8yZes9WDrINrPN216k0OajgDaypyhT1fwOgHJdfnGWXhVdIqWeiMkloE/q/I+J1nMWoZaWLLMUaieqOPMoX3fLs5T8iLKWPmVkgDBAppPm6ZNcTVo1bKuMKCUGhEPvYtzCoalQgDzyeTWI33cHXuwuNK0BAu//Df/i68/8tbsu8Poigm/ffM4Sfvs52w+phX6ROQDQRIqm71DUKZU+hcUQaHLT826iT+POPZifcyfmeQfcceLptx4umDv1pLIvmU6REplopxtS41GMOOpTiJINYNyP4hyewLsPUZ13R7QtU0EI0E4BUpaxTPWtJZkqg+KJcD6zgcEWNrB8eB4lIq6ppFL++tSMDM7uCjMyqAkenD45ZJKIVqdSM1a5aiijVChYNammir6cHOcn4VXkJ2ouMvw5qHipF4LoRCksqoMlhXcOyrjidEOOE3DofrFqrSbP3zjUiS8lhhyDKf29h1r+SolB4vdmHIRB6Skb+J7OXGjgwoWLxpgoB7z2jW//yJ0XwigEALf6YdcPlqwlvNXb3lJv00dfUst7iZBE0Ef0CeaanFVkpuByp3Z+/x7X0ccolvIF2BlDAL3lB6MiFTC4sGpnLcC8QbBww1sh59lgtEF2Qkz6GXfY4NBvlYMBvjtLurOP5FRtOFLyTgQuufOq0B+3ivwFXClEwkSu+WW1qhWXSVBClkxG4LzFLJWXtymtok+QIMx5yJWn/NpYZmjJp1OCqthth1z3w8TzFFRF4Ihmwoh3nfJa38BnPTJff1aKp6JiOzITU2opJj9oqd2qZNkCRBSOwhWkSAYpJ89rkya12nxdPmWvGov4/LN5BEOEBgERW4MXW0CDXdO2bauFJfz2szdlvUwTGfZ26PvBkh2PKm07G15RUVFRUVFRUVFRUXFCge7/TGMa05jQmhKC/j8WmICeh5yslAAAAABJRU5ErkJggg==</image>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>175</x>
+                                    <y>395</y>
+                                    <height>84</height>
+                                    <width>1130</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="flat">
+                                    <string>false</string>
+                                </property>
+                                <property name="title"/>
+                                <property name="minimized">
+                                    <string>false</string>
+                                </property>
+                                <property name="windowOpacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="windowIconText"/>
+                                <property name="accessibleDescription"/>
+                                <property name="windowModality">
+                                    <string>0</string>
+                                </property>
+                                <property name="whatsThis"/>
+                                <property name="autoFillBackground">
+                                    <string>false</string>
+                                </property>
+                                <property name="layoutDirection">
+                                    <string>0</string>
+                                </property>
+                                <property name="statusTip"/>
+                                <property name="windowFilePath"/>
+                                <property name="toolTipDuration">
+                                    <string>-1</string>
+                                </property>
+                                <property name="focus">
+                                    <string>false</string>
+                                </property>
+                                <property name="checkable">
+                                    <string>false</string>
+                                </property>
+                                <property name="focusPolicy">
+                                    <string>0</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="checked">
+                                    <string>false</string>
+                                </property>
+                                <property name="windowTitle"/>
+                                <property name="styleSheet"/>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="maximized">
+                                    <string>false</string>
+                                </property>
+                                <property name="fullScreen">
+                                    <string>false</string>
+                                </property>
+                                <property name="isActiveWindow">
+                                    <string>false</string>
+                                </property>
+                            </properties>
+                            <identifyingProperties>
+                                <property name="objectName">
+                                    <string>contentGroupBox</string>
+                                </property>
+                                <property name="accessibleName"/>
+                            </identifyingProperties>
+                            <children>
+                                <element class="QLabel" id="00002ba6">
+                                    <abstractProperties>
+                                        <visual isTopLevel="0"/>
+                                        <geometry isRelative="0">
+                                            <x>185</x>
+                                            <y>425</y>
+                                            <height>18</height>
+                                            <width>1110</width>
+                                        </geometry>
+                                    </abstractProperties>
+                                    <properties>
+                                        <property name="frameShadow">
+                                            <string>16</string>
+                                        </property>
+                                        <property name="openExternalLinks">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="scaledContents">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="minimized">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="windowOpacity">
+                                            <string>1</string>
+                                        </property>
+                                        <property name="windowIconText"/>
+                                        <property name="indent">
+                                            <string>-1</string>
+                                        </property>
+                                        <property name="frameShape">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="selectedText"/>
+                                        <property name="textFormat">
+                                            <string>2</string>
+                                        </property>
+                                        <property name="frameWidth">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="lineWidth">
+                                            <string>1</string>
+                                        </property>
+                                        <property name="accessibleDescription"/>
+                                        <property name="text">
+                                            <string>Stage</string>
+                                        </property>
+                                        <property name="windowModality">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="whatsThis"/>
+                                        <property name="autoFillBackground">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="layoutDirection">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="midLineWidth">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="statusTip"/>
+                                        <property name="windowFilePath"/>
+                                        <property name="toolTipDuration">
+                                            <string>-1</string>
+                                        </property>
+                                        <property name="focus">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="focusPolicy">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="toolTip"/>
+                                        <property name="windowTitle"/>
+                                        <property name="styleSheet"/>
+                                        <property name="enabled">
+                                            <string>true</string>
+                                        </property>
+                                        <property name="hasSelectedText">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="maximized">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="fullScreen">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="isActiveWindow">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="margin">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="wordWrap">
+                                            <string>false</string>
+                                        </property>
+                                    </properties>
+                                    <identifyingProperties>
+                                        <property name="objectName">
+                                            <string>labelStage</string>
+                                        </property>
+                                        <property name="accessibleName"/>
+                                    </identifyingProperties>
+                                </element>
+                                <element class="QLineEdit" id="00002ba7">
+                                    <abstractProperties>
+                                        <visual isTopLevel="0"/>
+                                        <geometry isRelative="0">
+                                            <x>185</x>
+                                            <y>449</y>
+                                            <height>20</height>
+                                            <width>1110</width>
+                                        </geometry>
+                                    </abstractProperties>
+                                    <properties>
+                                        <property name="maxLength">
+                                            <string>32767</string>
+                                        </property>
+                                        <property name="minimized">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="windowOpacity">
+                                            <string>1</string>
+                                        </property>
+                                        <property name="cursorMoveStyle">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="windowIconText"/>
+                                        <property name="undoAvailable">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="selectedText"/>
+                                        <property name="echoMode">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="accessibleDescription"/>
+                                        <property name="readOnly">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="text">
+                                            <string>Etape2</string>
+                                        </property>
+                                        <property name="windowModality">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="acceptableInput">
+                                            <string>true</string>
+                                        </property>
+                                        <property name="whatsThis"/>
+                                        <property name="placeholderText">
+                                            <string>Stage title</string>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="cursorPosition">
+                                            <string>6</string>
+                                        </property>
+                                        <property name="layoutDirection">
+                                            <string>0</string>
+                                        </property>
+                                        <property name="statusTip"/>
+                                        <property name="windowFilePath"/>
+                                        <property name="toolTipDuration">
+                                            <string>-1</string>
+                                        </property>
+                                        <property name="focus">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="redoAvailable">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="displayText">
+                                            <string>Etape2</string>
+                                        </property>
+                                        <property name="focusPolicy">
+                                            <string>11</string>
+                                        </property>
+                                        <property name="toolTip"/>
+                                        <property name="modified">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="windowTitle"/>
+                                        <property name="styleSheet"/>
+                                        <property name="enabled">
+                                            <string>true</string>
+                                        </property>
+                                        <property name="hasSelectedText">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="clearButtonEnabled">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="inputMask"/>
+                                        <property name="maximized">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="fullScreen">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="isActiveWindow">
+                                            <string>false</string>
+                                        </property>
+                                        <property name="frame">
+                                            <string>true</string>
+                                        </property>
+                                    </properties>
+                                    <identifyingProperties>
+                                        <property name="objectName">
+                                            <string>titleEdit</string>
+                                        </property>
+                                        <property name="accessibleName"/>
+                                    </identifyingProperties>
+                                </element>
+                            </children>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying">
+                <PropertyVerification element-id="00002ba5">
+                    <VerifyProperty type="equal" name="objectName"/>
+                </PropertyVerification>
+                <PropertyVerification element-id="00002ba6">
+                    <VerifyProperty type="equal" name="objectName"/>
+                </PropertyVerification>
+                <PropertyVerification element-id="00002ba7">
+                    <VerifyProperty type="equal" name="objectName"/>
+                </PropertyVerification>
+            </check>
+            <check type="content">
+                <PropertyVerification element-id="00002ba5">
+                    <VerifyProperty type="equal" name="whatsThis"/>
+                    <VerifyProperty type="equal" name="statusTip"/>
+                    <VerifyProperty type="equal" name="toolTip"/>
+                    <VerifyProperty type="equal" name="enabled"/>
+                </PropertyVerification>
+                <PropertyVerification element-id="00002ba6">
+                    <VerifyProperty type="equal" name="text"/>
+                    <VerifyProperty type="equal" name="whatsThis"/>
+                    <VerifyProperty type="equal" name="statusTip"/>
+                    <VerifyProperty type="equal" name="toolTip"/>
+                    <VerifyProperty type="equal" name="enabled"/>
+                </PropertyVerification>
+                <PropertyVerification element-id="00002ba7">
+                    <VerifyProperty type="equal" name="text"/>
+                    <VerifyProperty type="equal" name="whatsThis"/>
+                    <VerifyProperty type="equal" name="statusTip"/>
+                    <VerifyProperty type="equal" name="toolTip"/>
+                    <VerifyProperty type="equal" name="enabled"/>
+                </PropertyVerification>
+            </check>
+            <check type="geometry">
+                <PropertyVerification element-id="00002ba5">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+                <PropertyVerification element-id="00002ba6">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+                <PropertyVerification element-id="00002ba7">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

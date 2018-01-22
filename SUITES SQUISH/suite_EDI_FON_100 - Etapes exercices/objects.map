@@ -1,0 +1,126 @@
+:2D TOOLS.1 _QLabel	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' text='1 ' type='QLabel' unnamed='1' visible='1'}
+:2D TOOLS.1 _QSlider	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' leftWidget=':2D TOOLS.1 _QLabel' type='QSlider' unnamed='1' visible='1'}
+:2D TOOLS.50 _QLabel	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' text='50 ' type='QLabel' unnamed='1' visible='1'}
+:2D TOOLS.50 _QSlider	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' leftWidget=':2D TOOLS.50 _QLabel' type='QSlider' unnamed='1' visible='1'}
+:2D TOOLS_QToolButton	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' text='' type='QToolButton' unnamed='1' visible='1'}
+:2D TOOLS_QToolButton_2	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' occurrence='2' text='' type='QToolButton' unnamed='1' visible='1'}
+:2D TOOLS_QToolButton_3	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' occurrence='4' text='' type='QToolButton' unnamed='1' visible='1'}
+:2D TOOLS_QToolButton_4	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' occurrence='5' text='' type='QToolButton' unnamed='1' visible='1'}
+:2D TOOLS_QToolButton_5	{container=':qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox' occurrence='6' text='' type='QToolButton' unnamed='1' visible='1'}
+:3D TOOLS.QmitkCropToolGui_vts::modules::editor::QmitkCropToolGUI	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' name='QmitkCropToolGui' type='vts::modules::editor::QmitkCropToolGUI' visible='1'}
+:3D TOOLS.Yes_QPushButton	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' text='Yes' type='QPushButton' unnamed='1' visible='1'}
+:3D TOOLS._mainCropBox_QGroupBox	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' name='_mainCropBox' type='QGroupBox' visible='1'}
+:3D TOOLS._thresholdGroupBox_QGroupBox	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' name='_thresholdGroupBox' type='QGroupBox' visible='1'}
+:3D TOOLS_QToolButton	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' occurrence='2' text='' type='QToolButton' unnamed='1' visible='1'}
+:3D TOOLS_QToolButton_2	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' occurrence='3' text='' type='QToolButton' unnamed='1' visible='1'}
+:3D TOOLS_QmitkToolGUIArea	{container=':qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox' type='QmitkToolGUIArea' unnamed='1' visible='1'}
+:ContentTabView.contentGroupBox_QGroupBox	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='contentGroupBox' type='QGroupBox' visible='1'}
+:ContentTabView.createNewPagePushButton_QPushButton	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='createNewPagePushButton' type='QPushButton' visible='1'}
+:ContentTabView.createNewStagePushButton_QPushButton	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='createNewStagePushButton' type='QPushButton' visible='1'}
+:ContentTabView.deletePagePushButton_QPushButton	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='deletePagePushButton' type='QPushButton' visible='1'}
+:ContentTabView.nextSliderButton_QPushButton	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='nextSliderButton' type='QPushButton' visible='1'}
+:ContentTabView.previousSliderButton_QPushButton	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='previousSliderButton' type='QPushButton' visible='1'}
+:ContentTabView.previousSliderWidget_QWidget	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='previousSliderWidget' type='QWidget' visible='1'}
+:ContentTabView.totalContentWidget_QWidget	{container=':qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView' name='totalContentWidget' type='QWidget' visible='1'}
+:File.New_QMenu	{title='New' type='QMenu' unnamed='1' visible='1' window=':MainWindow.File_QMenu'}
+:HAPTIC SOLID.Crop haptic solid_QToolButton	{container=':HAPTIC SOLID_QGroupBox' text='Crop haptic solid' type='QToolButton' unnamed='1' visible='1'}
+:HAPTIC SOLID.Generate non-haptic surface_QCheckBox	{container=':HAPTIC SOLID_QGroupBox' text='Generate non-haptic surface' type='QCheckBox' unnamed='1' visible='1'}
+:HAPTIC SOLID_QGroupBox	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' title='HAPTIC SOLID' type='QGroupBox' unnamed='1' visible='1'}
+:Import DICOM series_QPushButton	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' text='Import DICOM series' type='QPushButton' unnamed='1' visible='1'}
+:Import DICOM series_QTabWidget	{aboveWidget=':Import DICOM series_QPushButton' container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' type='QTabWidget' unnamed='1' visible='1'}
+:MainWindow.Edit_QMenu	{title='Edit' type='QMenu' unnamed='1' visible='1' window=':MainWindow_vts::core::MainWindow'}
+:MainWindow.File_QMenu	{title='File' type='QMenu' unnamed='1' visible='1' window=':MainWindow_vts::core::MainWindow'}
+:MainWindow.stackedWidget_QStackedWidget	{name='stackedWidget' type='QStackedWidget' visible='1' window=':MainWindow_vts::core::MainWindow'}
+:MainWindow_QMenuBar	{type='QMenuBar' unnamed='1' visible='1' window=':MainWindow_vts::core::MainWindow'}
+:MainWindow_vts::core::MainWindow	{name='MainWindow' type='vts::core::MainWindow' visible='1'}
+:OK_QPushButton	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' text='OK' type='QPushButton' unnamed='1' visible='1'}
+:OK_QPushButton_2	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' occurrence='2' text='OK' type='QPushButton' unnamed='1' visible='1'}
+:QFileDialog.Cancel_QPushButton	{text='Cancel' type='QPushButton' unnamed='1' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.Open_QPushButton	{text='Open' type='QPushButton' unnamed='1' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.backButton_QToolButton	{name='backButton' type='QToolButton' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.fileNameLabel_QLabel	{name='fileNameLabel' type='QLabel' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.fileTypeCombo_QComboBox	{name='fileTypeCombo' type='QComboBox' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.lookInCombo_QComboBox	{name='lookInCombo' type='QComboBox' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.splitter_QSplitter	{name='splitter' type='QSplitter' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog_QFileDialog	{name='QFileDialog' type='QFileDialog' visible='1'}
+:_QListView	{type='QListView' unnamed='1' visible='1'}
+:_QScrollArea	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' type='QScrollArea' unnamed='1' visible='1'}
+:_QScrollBar	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' type='QScrollBar' unnamed='1' visible='1'}
+:_QSplitter	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' type='QSplitter' unnamed='1' visible='1'}
+:_QWidget	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' occurrence='16' type='QWidget' unnamed='1' visible='1'}
+:_QmitkRenderWindow	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' occurrence='4' type='QmitkRenderWindow' unnamed='1' visible='1'}
+:_QmitkRenderWindow_2	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' occurrence='3' type='QmitkRenderWindow' unnamed='1' visible='1'}
+:_QmitkRenderWindow_3	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' occurrence='2' type='QmitkRenderWindow' unnamed='1' visible='1'}
+:_cropParamsBox._xMinSpinner_QSpinBox	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='_xMinSpinner' type='QSpinBox' visible='1'}
+:_cropParamsBox._yMinSpinner_QSpinBox	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='_yMinSpinner' type='QSpinBox' visible='1'}
+:_cropParamsBox._zMaxSpinner_QSpinBox	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='_zMaxSpinner' type='QSpinBox' visible='1'}
+:_cropParamsBox._zMinSpinner_QSpinBox	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='_zMinSpinner' type='QSpinBox' visible='1'}
+:_cropParamsBox.qt_spinbox_lineedit_QLineEdit	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='qt_spinbox_lineedit' type='QLineEdit' visible='1'}
+:_cropParamsBox.qt_spinbox_lineedit_QLineEdit_2	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='qt_spinbox_lineedit' occurrence='3' type='QLineEdit' visible='1'}
+:_cropParamsBox.qt_spinbox_lineedit_QLineEdit_3	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='qt_spinbox_lineedit' occurrence='5' type='QLineEdit' visible='1'}
+:_cropParamsBox.qt_spinbox_lineedit_QLineEdit_4	{container=':_mainCropBox._cropParamsBox_QGroupBox' name='qt_spinbox_lineedit' occurrence='6' type='QLineEdit' visible='1'}
+:_mainCropBox._cropButton_QPushButton	{container=':3D TOOLS._mainCropBox_QGroupBox' name='_cropButton' type='QPushButton' visible='1'}
+:_mainCropBox._cropParamsBox_QGroupBox	{container=':3D TOOLS._mainCropBox_QGroupBox' name='_cropParamsBox' type='QGroupBox' visible='1'}
+:_smoothingGroup._smoothButton_QPushButton	{container=':_thresholdGroupBox._smoothingGroup_QGroupBox' name='_smoothButton' type='QPushButton' visible='1'}
+:_smoothingGroup._smoothingSpinner_QSpinBox	{container=':_thresholdGroupBox._smoothingGroup_QGroupBox' name='_smoothingSpinner' type='QSpinBox' visible='1'}
+:_thresholdGroupBox._okButton_QPushButton	{container=':3D TOOLS._thresholdGroupBox_QGroupBox' name='_okButton' type='QPushButton' visible='1'}
+:_thresholdGroupBox._smoothingGroup_QGroupBox	{container=':3D TOOLS._thresholdGroupBox_QGroupBox' name='_smoothingGroup' type='QGroupBox' visible='1'}
+:_thresholdGroupBox._thresholdingGroup_QGroupBox	{container=':3D TOOLS._thresholdGroupBox_QGroupBox' name='_thresholdingGroup' type='QGroupBox' visible='1'}
+:_thresholdingGroup._defaultThresholdButton_QPushButton	{container=':_thresholdGroupBox._thresholdingGroup_QGroupBox' name='_defaultThresholdButton' type='QPushButton' visible='1'}
+:_thresholdingGroup.qt_spinbox_lineedit_QLineEdit	{container=':_thresholdGroupBox._thresholdingGroup_QGroupBox' name='qt_spinbox_lineedit' occurrence='2' type='QLineEdit' visible='1'}
+:_thresholdingGroup.qt_spinbox_lineedit_QLineEdit_2	{container=':_thresholdGroupBox._thresholdingGroup_QGroupBox' name='qt_spinbox_lineedit' type='QLineEdit' visible='1'}
+:_thresholdingGroup_ctkQDoubleSpinBox	{container=':_thresholdGroupBox._thresholdingGroup_QGroupBox' occurrence='2' type='ctkQDoubleSpinBox' unnamed='1' visible='1'}
+:_thresholdingGroup_ctkQDoubleSpinBox_2	{container=':_thresholdGroupBox._thresholdingGroup_QGroupBox' type='ctkQDoubleSpinBox' unnamed='1' visible='1'}
+:_thresholdingGroup_ctkRangeSlider	{container=':_thresholdGroupBox._thresholdingGroup_QGroupBox' type='ctkRangeSlider' unnamed='1' visible='1'}
+:contentGroupBox.insertImagePushButton_QPushButton	{container=':ContentTabView.contentGroupBox_QGroupBox' name='insertImagePushButton' type='QPushButton' visible='1'}
+:contentGroupBox.labelStage_QLabel	{container=':ContentTabView.contentGroupBox_QGroupBox' name='labelStage' type='QLabel' visible='1'}
+:contentGroupBox.mediaStackedWidget_QStackedWidget	{container=':ContentTabView.contentGroupBox_QGroupBox' name='mediaStackedWidget' type='QStackedWidget' visible='1'}
+:contentGroupBox.textEdit_QTextEdit	{container=':ContentTabView.contentGroupBox_QGroupBox' name='textEdit' type='QTextEdit' visible='1'}
+:contentGroupBox.titleEdit_QLineEdit	{container=':ContentTabView.contentGroupBox_QGroupBox' name='titleEdit' type='QLineEdit' visible='1'}
+:fileNameEdit_QLineEdit	{buddy=':QFileDialog.fileNameLabel_QLabel' name='fileNameEdit' type='QLineEdit' visible='1'}
+:frame.stackedWidget_QStackedWidget	{container=':splitter.frame_QFrame' name='stackedWidget' type='QStackedWidget' visible='1'}
+:imgLabel_QLabel	{container=':stackedWidget_QWidget' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_2	{container=':stackedWidget_QWidget_2' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_3	{container=':stackedWidget_QWidget_3' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_4	{container=':stackedWidget_QWidget_4' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_5	{container=':stackedWidget_QWidget_5' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_6	{container=':stackedWidget_QWidget_6' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_7	{container=':stackedWidget_QWidget_7' name='imgLabel' type='QLabel' visible='1'}
+:imgLabel_QLabel_8	{container=':stackedWidget_QWidget_8' name='imgLabel' type='QLabel' visible='1'}
+:mediaStackedWidget_QToolButton	{container=':contentGroupBox.mediaStackedWidget_QStackedWidget' type='QToolButton' unnamed='1' visible='1'}
+:numberLabel_QLabel	{container=':stackedWidget_QWidget_6' name='numberLabel' type='QLabel' visible='1'}
+:numberLabel_QLabel_2	{container=':stackedWidget_QWidget_9' name='numberLabel' type='QLabel' visible='1'}
+:numberLabel_QLabel_3	{container=':stackedWidget_QWidget_10' name='numberLabel' type='QLabel' visible='1'}
+:numberLabel_QLabel_4	{container=':stackedWidget_QWidget_5' name='numberLabel' type='QLabel' visible='1'}
+:numberLabel_QLabel_5	{container=':stackedWidget_QWidget_11' name='numberLabel' type='QLabel' visible='1'}
+:numberLabel_QLabel_6	{container=':stackedWidget_QWidget_8' name='numberLabel' type='QLabel' visible='1'}
+:qt_splithandle__QSplitterHandle	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' name='qt_splithandle_' occurrence='5' type='QSplitterHandle' visible='1'}
+:qt_splithandle__QmitkStdMultiWidget	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' leftWidget=':qt_splithandle__QSplitterHandle' type='QmitkStdMultiWidget' unnamed='1' visible='1'}
+:qt_tabwidget_stackedwidget.2D TOOLS_QGroupBox	{container=':qt_tabwidget_stackedwidget_QStackedWidget' title='2D TOOLS' type='QGroupBox' unnamed='1' visible='1'}
+:qt_tabwidget_stackedwidget.3D TOOLS_QGroupBox	{container=':qt_tabwidget_stackedwidget_QStackedWidget' title='3D TOOLS' type='QGroupBox' unnamed='1' visible='1'}
+:qt_tabwidget_stackedwidget.ContentTabView_vts::modules::editor::ContentTabView	{container=':stackedWidget.qt_tabwidget_stackedwidget_QStackedWidget' name='ContentTabView' type='vts::modules::editor::ContentTabView' visible='1'}
+:qt_tabwidget_stackedwidget_QStackedWidget	{container=':qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView' name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1'}
+:qt_tabwidget_stackedwidget_vts::modules::editor::TotalSegmentationTabView	{container=':stackedWidget.qt_tabwidget_stackedwidget_QStackedWidget' type='vts::modules::editor::TotalSegmentationTabView' unnamed='1' visible='1'}
+:splitter.frame_QFrame	{container=':QFileDialog.splitter_QSplitter' name='frame' type='QFrame' visible='1'}
+:splitter.sidebar_QSidebar	{container=':QFileDialog.splitter_QSplitter' name='sidebar' type='QSidebar' visible='1'}
+:stackedWidget.SolidEditor_vts::modules::editor::SolidEditor	{container=':MainWindow.stackedWidget_QStackedWidget' name='SolidEditor' type='vts::modules::editor::SolidEditor' visible='1'}
+:stackedWidget.qt_tabwidget_stackedwidget_QStackedWidget	{container=':MainWindow.stackedWidget_QStackedWidget' name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1'}
+:stackedWidget.treeView_QTreeView	{container=':frame.stackedWidget_QStackedWidget' name='treeView' type='QTreeView' visible='1'}
+:stackedWidget.widget_QWidget	{container=':MainWindow.stackedWidget_QStackedWidget' name='widget' type='QWidget' visible='1'}
+:stackedWidget_QWidget	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='5' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_10	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='27' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_11	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='7' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_12	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='2' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_2	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='4' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_3	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='19' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_4	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='20' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_5	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='6' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_6	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='3' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_7	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='39' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_8	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='41' type='QWidget' unnamed='1' visible='1'}
+:stackedWidget_QWidget_9	{container=':MainWindow.stackedWidget_QStackedWidget' occurrence='25' type='QWidget' unnamed='1' visible='1'}
+:titleLabel_QLabel	{container=':stackedWidget_QWidget' name='titleLabel' type='QLabel' visible='1'}
+:titleLabel_QLabel_2	{container=':stackedWidget_QWidget_6' name='titleLabel' type='QLabel' visible='1'}
+:titleLabel_QLabel_3	{container=':stackedWidget_QWidget_8' name='titleLabel' type='QLabel' visible='1'}
+:titleLabel_QLabel_4	{container=':stackedWidget_QWidget_12' name='titleLabel' type='QLabel' visible='1'}
+:titleLabel_QLabel_5	{container=':stackedWidget_QWidget_9' name='titleLabel' type='QLabel' visible='1'}
